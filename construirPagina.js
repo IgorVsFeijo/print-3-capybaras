@@ -1,4 +1,4 @@
-class construirPagina {
+class pagina {
   static categorias = [
     //Definindo as categorias atuais do Projeto
     "cidadao",
@@ -40,11 +40,11 @@ class construirPagina {
   }
 }
 
-class include extends construirPagina {
+class include extends pagina {
   constructor(seletor, nomeInclude) {
     super();
     this.elemento = document.querySelector(seletor);
-    this.enderecoInclude = `${construirPagina.pastaRaiz}\\includes\\${nomeInclude}`;
+    this.enderecoInclude = `${pagina.pastaRaiz}\\includes\\${nomeInclude}`;
   }
 
   get comecoElemento() {
@@ -83,20 +83,20 @@ class include extends construirPagina {
   }
 }
 
-if (!construirPagina.isPaginasPrincipais) {
-  let tabPagina = document.querySelector(`#tab-${construirPagina.categoria}`);
+if (!pagina.isPaginasPrincipais) {
+  let tabPagina = document.querySelector(`#tab-${pagina.categoria}`);
   console.log(tabPagina);
   tabPagina.ariaSelected = "true";
   tabPagina.classList.add("active");
 
-  let navPagina = document.querySelector(`#nav-${construirPagina.categoria}`);
+  let navPagina = document.querySelector(`#nav-${pagina.categoria}`);
   navPagina.classList.add("active");
   navPagina.classList.add("show");
 }
 
 let ancoraPagina = document.querySelector(
-  `[href="${construirPagina.enderecopagina}"]`
+  `[href="${pagina.enderecopagina}"]`
 );
 
-ancoraPagina.style.backgroundColor = "red";
+ancoraPagina.classList.add("active");
 

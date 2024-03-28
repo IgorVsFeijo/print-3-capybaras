@@ -82,11 +82,11 @@
         <nav id="nav-cidade" role="tabpanel" aria-labelledby="tab-cidade" class="navbar tab-pane fade  navbar-expand-md">
             <div class="container-lg">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">História</a>
-                    <a class="nav-link" href="#">Dados Gerais</a>
-                    <a class="nav-link" href="#">Pessoas Notáveis</a>
-                    <a class="nav-link" href="#">Brasão e Bandeira</a>
-                    <a class="nav-link" href="#">Hino da Cidade</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidade/historia.php">História</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidade/dadosgerais.php">Dados Gerais</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidade/pessoasnotaveis.php">Pessoas Notáveis</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidade/simbolos.php">Brasão e Bandeira</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidade/hino.php">Hino da Cidade</a>
                 </div>
             </div>
         </nav>
@@ -94,10 +94,10 @@
         <nav id="nav-cidadao" role="tabpanel" aria-labelledby="tab-cidadao" class="navbar tab-pane fade  navbar-expand-md">
             <div class="container-lg">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Saúde</a>
-                    <a class="nav-link" href="#">Serviços</a>
-                    <a class="nav-link" href="#">Trânsito e Transporte</a>
-                    <a class="nav-link" href="#">Concursos</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidadao/saude.php">Saúde</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidadao/servicos.php">Serviços</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidadao/transporte.php">Trânsito e Transporte</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cidadao/concursos.php">Concursos</a>
                 </div>
             </div>
         </nav>
@@ -105,10 +105,10 @@
         <nav id="nav-governo" role="tabpanel" aria-labelledby="tab-governo" class="navbar tab-pane fade  navbar-expand-md">
             <div class="container-lg">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Prefeitura</a>
-                    <a class="nav-link" href="#">Secretarias</a>
-                    <a class="nav-link" href="#">Legislação</a>
-                    <a class="nav-link" href="#">Poder Legislativo</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/governo/prefeitura.php">Prefeitura</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/governo/secretarias.php">Secretarias</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/governo/legislacao.php">Legislação</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/governo/legislativo.php">Poder Legislativo</a>
                 </div>
             </div>
         </nav>
@@ -116,10 +116,10 @@
         <nav id="nav-empresa" role="tabpanel" aria-labelledby="tab-empresa" class="navbar tab-pane fade  navbar-expand-md">
             <div class="container-lg">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">IPTU</a>
-                    <a class="nav-link" href="#">Diário Oficial</a>
-                    <a class="nav-link" href="#">Cadastro de Pessoa Jurídica</a>
-                    <a class="nav-link" href="#">Aprovação de Projetos</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/empresa/iptu.php">IPTU</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/empresa/diario_oficial.php">Diário Oficial</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/empresa/cadastro.php">Cadastro de Pessoa Jurídica</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/empresa/aprovacao.php">Aprovação de Projetos</a>
                 </div>
             </div>
         </nav>
@@ -127,10 +127,10 @@
         <nav id="nav-cultura" role="tabpanel" aria-labelledby="tab-cultura" class="navbar tab-pane fade  navbar-expand-md">
             <div class="container-lg">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Cultura e Arte</a>
-                    <a class="nav-link" href="#">Tradições</a>
-                    <a class="nav-link" href="#">Agendamento</a>
-                    <a class="nav-link" href="#">Cadastro</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cultura/culturaarte.php">Cultura e Arte</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cultura/tradicoes.php">Tradições</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cultura/agendamento.php">Agendamento</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/cultura/cadastro.php">Cadastro</a>
                 </div>
             </div>
         </nav>
@@ -138,11 +138,11 @@
         <nav id="nav-turismo" role="tabpanel" aria-labelledby="tab-turismo" class="navbar tab-pane fade  navbar-expand-md">
             <div class="container-lg">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Hospedagem</a>
-                    <a class="nav-link" href="#">Pontos Turísticos</a>
-                    <a class="nav-link" href="#">Gastronomia</a>
-                    <a class="nav-link" href="#">Eventos</a>
-                    <a class="nav-link" href="#">Galeria</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/turismo/hospedagem.php">Hospedagem</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/turismo/pontos_turisticos.php">Pontos Turísticos</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/turismo/gastronomia.php">Gastronomia</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/turismo/eventos.php">Eventos</a>
+                    <a class="nav-link" href="/<?=$pasta_raiz;?>/turismo/galeria.php">Galeria</a>
                 </div>
             </div>
         </nav>
