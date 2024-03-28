@@ -1,0 +1,1598 @@
+@charset "UTF-8";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans:wght@400;500;700&display=swap");
+
+/* Estilos Universais */
+html{
+ box-sizing: initial;
+}
+
+.bg-white{
+  background-color: #f2f2f2!important;
+  color: black!important;
+}
+
+header .logo * {
+  max-height: 90px;
+}
+
+footer .logo * {
+  max-height: 110px;
+}
+
+footer .desenvolvido-por i{
+  color: white;
+}
+
+header a:hover .logo * {
+  transform: scale(1.1);
+}
+
+.bg-azul-escuro {
+  background-color: #10246b !important;
+}
+
+.font22 {
+  font-size: 22px;
+}
+
+/* Estilos Universais */
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+header * {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 1.3em;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+#obrigatorias ul li {
+  padding: 0.4em 1.2em;
+}
+
+#escondidas {
+  padding: 0em;
+}
+
+menu {
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 2em 0 2em;
+}
+
+.topo {
+  margin-top: 3.4em;
+}
+
+img {
+  max-width: 100%;
+}
+
+header,
+header > div {
+  max-width: 100%;
+}
+header nav .btn {
+  padding: 0;
+  background-color: #3552b9;
+  color: white;
+}
+
+.barra-azulzinha {
+  background-color: #1d2f6f;
+  color: white;
+  height: 35px;
+  padding-top: 0;
+  align-items: center;
+}
+
+.rolarParaTopo {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* Atualização Header*/
+
+/* Navbar Principal */
+
+header .container-fluid.bg-light nav {
+  max-width: 1000px;
+  gap: 30px;
+}
+
+.placeholder-acess {
+  height: 35px;
+  width: 10px;
+}
+
+header .botao-sanduiche {
+  border: 0;
+}
+
+header .botao-sanduiche span {
+  font-size: 1.2em;
+}
+
+header .botao-sanduiche:hover span {
+  font-size: 1.25em;
+}
+
+header .botao-sanduiche:focus {
+  border: none;
+  background-color: #00a6a6;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 1em 0 1em 0;
+}
+
+.collapse:not(.show) li {
+  display: flex;
+}
+
+#navPrincipal .nav-link {
+  color: black;
+}
+
+#navPrincipal .nav-link:hover {
+  font-weight: bold;
+  color: #ff9a0d;
+}
+
+/* Navbar Secundario */
+
+div.nav-secundario {
+  background-color: #10246b;
+}
+
+#navSecundario > menu {
+  max-width: 800px;
+  padding: 5px;
+}
+
+#navSecundario .nav-item:hover {
+  background-color: #00a6a6;
+  font-weight: bold;
+}
+
+.nav-item.btn > a {
+  padding: 3px;
+  text-transform: uppercase;
+}
+
+.nav-item.btn > .nav-link {
+  color: white;
+}
+
+.nav-item.btn:hover > .nav-link,
+.nav-item.btn:hover > .dropdown-toggle {
+  color: white;
+}
+
+.dropdown-toggle {
+  background-color: transparent;
+  text-align: center;
+  height: 100%;
+  color: white;
+  border: 0;
+}
+
+.dropdown-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+.dropdown menu li a {
+  width: 100%;
+}
+
+.dropdown-menu {
+  background-color: rgba(226, 226, 226, 0.99);
+}
+
+/*Home principal*/
+
+#secoes-portais > * {
+  min-height: 580px;
+}
+
+#secoes-portais a:hover section {
+  border: 5px solid #00a6a6;
+  border-radius: 10px;
+}
+
+#secoes-portais a:hover h2 {
+  color: #00a6a6;
+}
+
+#secoes-portais > *:last-child,
+#secoes-portais > *:nth-last-child(2) {
+  min-height: 350px;
+  height: 350px;
+}
+
+#secoes-portais picture {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#secoes-portais picture img {
+  height: auto;
+  width: 100%;
+}
+
+#secoes-portais h2 {
+  text-transform: uppercase;
+  margin: 5px 0px;
+  color: #10246b;
+  font-size: 1.75em;
+}
+
+#secoes-portais p {
+  padding: 5px 0px 0px;
+}
+
+#secoes-portais a {
+  color: black;
+  text-decoration: none;
+}
+
+#secoes-portais > * > section,
+div.cultura-e-turismo section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+#secoes-portais > * > section,
+div.cultura-e-turismo {
+  height: 100%;
+}
+
+#home-principal .veja-mais {
+  margin-top: 50px;
+}
+
+div.cultura-e-turismo {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+div.cultura-e-turismo > * {
+  display: flex;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+
+#secoes-portais section div {
+  background-color: #fff;
+  padding: 1em;
+}
+
+#secoes-portais > div {
+  position: relative;
+}
+
+#secoes-portais .img-home-princ {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+picture.img-home-princ {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.area_site{
+  border-bottom: 2px solid;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.pagina{
+  margin-left: 2em;
+}
+.grupodelinks{
+  text-indent: 4em;
+}
+.espaço_noticia{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+/* AREA CIDADE */
+
+.paginas-area-cidade .h1-cidade{
+  font-size: 8vh;
+}
+
+.paginas-area-cidade article.container-lg{
+  padding: 0px 25px;
+}
+
+
+.paginas-area-cidade figure img,
+.paginas-area-cidade picture img
+{
+  width: 100%;
+}
+
+.paginas-area-cidade > main > article > div:first-child {
+  width: 100vw;
+  max-width: none;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px calc(50vw - 50%) 0px;
+  position: relative;
+  right: calc(50vw - 50%);
+}
+
+.paginas-area-cidade > main > article > div:first-child div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+.paginas-area-cidade > main > article > div:first-child h1 {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+.paginas-area-cidade > main > article > div:first-child div > p,
+.paginas-area-cidade > main > article > div:first-child div > ul {
+  max-width: 500px;
+  margin: 0 0 1em;
+  text-shadow: 0px 1px 0px black;
+}
+
+.paginas-area-cidade .titulo-sessao {
+  background-color: #1d2f6f;
+  color: white;
+  position: relative;
+  max-width: none;
+  width: 100vw;
+  left: calc(50% - 50vw);
+  padding: 8px calc(50vw - 50%);
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.paginas-area-cidade article > div > section > .titulo-sessao:only-child{
+  margin: 0 0 20px;
+
+}
+
+.paginas-area-cidade .poster {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.paginas-area-cidade .home-cidade .poster,
+.paginas-area-cidade #dados-gerais .poster {
+  background-image: url(../imgs/cidade/dados_gerais_home.webp);
+}
+
+.paginas-area-cidade .cidade-historia .poster {
+  background-image: url(../imgs/cidade/historia_poster.webp);
+}
+
+.paginas-area-cidade #sessao-hino .poster {
+  background-image: url(../imgs/cidade/hino_poster.webp);
+}
+
+.paginas-area-cidade #pessoas-notaveis .poster {
+  background-image: url(../imgs/cidade/pessoas_poster.webp);
+}
+
+.paginas-area-cidade #cidade-simbolos .poster {
+  background-image: url(../imgs/cidade/simbolos_poster.webp);
+}
+
+.titulo-sessao.vazio {
+  color: #1d2f6f;
+}
+
+.titulo-verde-agua, .titulo-retangulo-cinza{
+  width: 100%;
+  background-color: #00a6a6;
+  color: white;
+  line-height: 2em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.titulo-retangulo-cinza{
+  background-color: #f2f2f2;
+  color: black;
+  padding: 0 15px;
+}
+
+
+.btn-veja-mais{
+  position: relative;
+  padding: 7px 40px;
+  left: calc(100% - 200px);
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.img-grande .titulo-verde-agua{
+  justify-content: flex-start;
+  padding: 5px 6em;
+}
+
+.img-grande img{
+  width: 100%;
+}
+
+.hc-cards-pessoas{
+  display: flex;
+  gap: 1%;
+  margin: 20px 0px;
+}
+
+.hc-card-pessoa{
+  padding: 0;
+  flex-shrink: 1;
+  width: calc(99% / 3);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.10);
+}
+
+.hc-card-pessoa img{
+  width: 100%;
+}
+
+.hc-card-pessoa figure{
+  margin: 0;
+}
+
+.hc-card-pessoa h2{
+  margin: 0px;
+}
+
+.home-dadosgerais-list li{
+  padding: 5px 0px;
+}
+
+#hc-sessao-simbolos p{
+  text-align: center;
+}
+
+#hc-sessao-hino figure{
+  margin: 0px;
+  min-height: 350px;
+}
+
+#hc-sessao-hino .trecho-hino{
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.legenda-bonitinha-cidade{
+  background-color: #009e9e;
+  color: white;
+  padding: 2px 10px;
+}
+
+.legenda-bonitinha-cidade *{
+  padding: 0;
+  margin: 2px;
+}
+
+.historia-pts-turisticos{
+  position: relative;
+  padding-bottom: 130px;
+}
+
+.historia-pts-turisticos .btn-veja-mais{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  max-width: 160px;
+}
+
+/* Dados Gerais Cidade */
+
+main#dados-gerais li {
+  display: block;
+  text-align: left;
+}
+
+/* Acessibilidade */
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 2;
+}
+
+#page-acessibilidade svg {
+  padding: 5px;
+  fill: white;
+}
+
+#page-acessibilidade i {
+  font-size: 3em;
+}
+
+#page-acessibilidade .icon {
+  font-size: 4em;
+  color: white;
+}
+
+#page-acessibilidade button{
+  background-color: #10246b;
+}
+
+#page-acessibilidade span.m-auto {
+  display: block;
+}
+
+/* Pages Empresas */
+
+/* Fim Pages Empresas */
+
+/* Footer */
+
+footer {
+  background-color: #10246b;
+  text-align: center;
+  color: white;
+}
+
+footer .container-lg {
+  padding: 20px 0px;
+}
+
+footer .desenvolvido-por {
+  max-width: 300px;
+}
+footer i.btn {
+  font-size: 2em;
+}
+
+/* Pessoas Notaveis Cidade  */
+
+.sessao-cards-pessoas-notaveis .card {
+  flex-direction: row;
+}
+
+.sessao-cards-pessoas-notaveis .card-img {
+  width: 50%;
+}
+
+/* Fim Pessoas Notaveis Cidade */
+
+.dúvida {
+  background-color: rgb(197, 196, 195);
+}
+
+.sombra {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* PÁGNAS OBRGATÓRAS */
+
+/* Quem somos */
+.quemsomos {
+  margin: 30px 0px;
+}
+
+.quemsomos article {
+  padding: 10px;
+}
+
+.quemsomos article div {
+  border-radius: 10px;
+}
+
+.quemsomos article a {
+  text-decoration: none;
+  color: #ff9a0d;
+  padding: 5px;
+}
+
+.quemsomos article a:hover {
+  color: #ff9a0d;
+  background-color: #10246b;
+}
+
+.quemsomos article h2 {
+  text-decoration: none;
+  color: #00a6a6;
+  text-transform: uppercase;
+}
+
+.quemsomos article b {
+  text-decoration: none;
+  color: #10246b;
+}
+
+.quemsomos article figure {
+  padding: 20px;
+}
+
+.quemsomos article img {
+  border-radius: 50%;
+  border-top-left-radius: 30px;
+  border: solid 10px #00a6a6;
+}
+
+.quemsomos_conteudo {
+  padding: 10px;
+}
+/* Fim Quem Somos */
+
+/*Contato */
+.contato {
+  margin: 20px 0px;
+}
+
+.contato_botoes {
+  margin: 20px 0px;
+}
+
+.contato_botoes a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d2f6f;
+  padding: 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  border: white 10px solid;
+}
+.contato_botoes a:hover {
+  background-color: #10246b;
+}
+
+.contato_botoes p {
+  font-size: 0.8em;
+}
+
+.contato_botoes i {
+  font-size: 3em;
+}
+
+.contato_form {
+  background-color: #038686;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contato_form label {
+  font-size: 2em;
+
+  color: white;
+}
+
+.contato_form input,
+.contato_form button,
+.contato_form textarea {
+  margin: 5px 0px;
+}
+
+/* Fim Contatos */
+
+/* Início Privacidade */
+.privacidade {
+  margin: 40px 0px;
+}
+
+.privacidade_politica h1 {
+  margin: 10px 0px;
+}
+
+.privacidade article {
+  padding: 20px;
+}
+
+.privacidade section {
+  padding: 20px;
+  border: 5px solid #00a6a6;
+}
+
+.privacidade_politica {
+  background-color: #00a6a6;
+  border-radius: 10px;
+}
+
+.privacidade_politica section {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Fim Privacidade */
+
+/* Início Perguntas Frequentes */
+main#perguntas {
+  padding: 2em 0em;
+}
+/* Fim Perguntas */
+
+/* INICIO CSS AREA CIDADAO */
+
+h1,
+h2 {
+  margin: 20px 0px;
+}
+
+/*Início Home CIDADAO */
+.btn-vermais, .btn-veja-mais{
+  color: white;
+  background-color: #ff9f1c;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-vermais:hover, .btn-veja-mais:hover {
+  background-color: #ff9a0d;
+  color: white;
+  color: rgb(223, 223, 223);
+}
+
+.none {
+  display: none;
+}
+
+.sombra {
+  box-shadow: 0px 0px 3px 1px rgba(85, 85, 85, 0.2);
+}
+
+.cidadao {
+  margin: 25px 0px;
+}
+
+.cidadao section,
+.cidadao article,
+.cidadao aside {
+  margin: 10px 0px;
+}
+
+.cidadao .home-col-1 {
+  padding: 30px;
+}
+
+.cidadao .home-col-1 > div {
+  margin-bottom: 60px;
+}
+
+.cidadao_botoes {
+  background-color: #3552b9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px 0px;
+}
+
+.cidadao_botoes a {
+  background-color: #1d2f6f;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.cidadao_botoes a:hover {
+  background-color: #10246b;
+}
+
+.cidadao_botoes i {
+  font-size: 2em;
+}
+
+.cidadao_card {
+  background-color: #1d2f6f;
+  color: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px 0px;
+}
+
+.cidadao_card.mais-acessados h3 {
+  font-size: 22px;
+}
+
+.cidadao_card.mais-acessados ul li {
+  padding: 5px;
+}
+
+.cidadao_card a {
+  text-decoration: none;
+  color: white;
+}
+
+.cidadao_card a:hover {
+  color: rgb(223, 223, 223);
+}
+
+.cidadao_form {
+  padding: 20px;
+}
+
+.cidadao_form input {
+  margin: 10px 0px;
+  background-color: #19cccc;
+}
+
+.cidadao_form input::placeholder {
+  color: white;
+}
+
+.cidadao_form button {
+  background-color: #00a6a6;
+  color: white;
+}
+
+.cidadao_form button:hover {
+  background-color: #038686;
+  color: white;
+}
+
+.cidadao_calendario {
+  border: transparent;
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.cidadao_calendario caption {
+  background-color: #ff9a0d;
+  caption-side: top;
+}
+
+.cidadao_calendario th {
+  color: #ff9a0d;
+}
+
+.cidadao_mes th {
+  color: #10246b;
+}
+/*Fim Home CIDADAO */
+
+/*Inicio Transporte CIDADAO */
+.cidadao_transporte {
+  margin: 40px 0px;
+}
+
+.cidadao_noticia {
+  margin: 20px 0px;
+}
+
+.cidadao_noticias_p {
+  padding: 10px;
+}
+
+.cidadao_noticia h3 {
+  margin: 0px;
+}
+
+.btn-onibus {
+  color: white;
+  background-color: #00a6a6;
+  border: white 2px solid;
+}
+
+.btn-onibus:hover {
+  background-color: #009e9e;
+  color: white;
+}
+/*Fim Transporte CIDADAO */
+
+/*Início Concurso CIDADAO */
+.cidadao_concursos ul {
+  padding: 0px;
+}
+
+.cidadao_concursos ul li {
+  background-color: #00a6a6;
+  margin: 10px 0px 0px 0px;
+  padding: 15px;
+  list-style: none;
+}
+
+.cidadao_concursos a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  border-left: rgb(255, 255, 255) 1.5px solid;
+  font-size: 0.8em;
+}
+
+.cidadao_dicas i {
+  font-size: 5em;
+  color: #10246b;
+}
+
+/*Fim Concurso CIDADAO */
+
+/*Início Saúde CIDADAO */
+
+.saude {
+  margin: 10px 0px;
+}
+
+.cidadao_botao i {
+  font-size: 2em;
+}
+
+.cidadao_botao a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d2f6f;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  border: solid white;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+
+.saude .cidadao_card {
+  background-color: #00a6a6;
+}
+
+.cidadao_cartilha {
+  padding: 20px 20px 0px 25px;
+}
+
+.cidadao_cartilha caption {
+  caption-side: top;
+}
+
+.cidadao_cartilha table,
+.cidadao_cartilha td,
+.cidadao_cartilha tr {
+  border: white solid 1px;
+  border-radius: 10px;
+  background-color: #10246b;
+  color: white;
+  padding: 10px;
+}
+
+/*Fim Saúde CIDADAO */
+
+/*Início Serviços CIDADAO */
+.cidadao_servicos {
+  padding: 20px;
+}
+
+.cidadao_postagem {
+  margin: 20px 5px;
+  background-color: rgb(240, 240, 240);
+  padding: 5px 10px;
+}
+
+.cidadao_assistencia .cidadao_botao {
+  margin: 1px;
+}
+
+.cidadao_servicos_escolar a {
+  background-color: #00a6a6;
+  text-decoration: none;
+  color: white;
+  margin: 5px 0px;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cidadao_servicos_escolar a:hover {
+  background-color: #009e9e;
+}
+
+/* Fim Serviços CIDADAO */
+
+/* FIM CSS AREA CIDADAO */
+
+/* INICIO CSS AREA CULTURA */ #culturasr main {
+  padding: 2em 0em;
+}
+.pages_cultura{
+  margin: 2em 0em;
+}
+.noticias_cultura {
+  box-shadow: 3px 4px 4px 3px rgba(85, 85, 85, 0.5);
+  padding: 20px;
+  background-color: #1d2f6f;
+  color: white;
+  border-radius: 10px;
+}
+.notícia_mobile {
+  box-shadow: 0px 3px 3px 0px rgba(85, 85, 85, 0.2);
+  padding: 0.5em 0.4em 0em 0.4em;
+  background-color: #00a6a659;
+  border-radius: 10px;
+}
+.notícia_mobile p {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.conhecamais {
+  background-color: #00a6a6;
+  border-radius: 10px;
+  margin-top: 1em;
+  box-shadow: 0px 2px 4px 3px rgba(85, 85, 85, 0.5);
+}
+#culturasr article {
+  text-align: justify;
+}
+.monumento_cultural {
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: #ff9f1c;
+  box-shadow: 0px 2px 1px 3px rgba(85, 85, 85, 0.5);
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+.secao_artistas {
+  margin-top: 1em;
+}
+.grupos {
+  border: 3px solid;
+  border-radius: 1em;
+  background-color: #2d4739;
+  color: white;
+  box-shadow: 0px 3px 4px 2px rgba(85, 85, 85, 0.5);
+}
+.grupo,
+.jamais_vistos {
+  padding: 0.5em 1em;
+  border-right: 1px solid black;
+}
+.jamais_vistos {
+  border: none;
+}
+.festasagosto,
+.exposr {
+  background-color: #1d2f6f;
+  color: white;
+  padding: 0.5em 0.5em;
+  border-radius: 10px;
+  margin-bottom: 1.3em;
+  box-shadow: 0px 3px 3px 3px rgba(85, 85, 85, 0.5);
+}
+.festasagosto {
+  margin-right: 2em;
+}
+.botao_cultura {
+  margin-left: 65em;
+}
+.botao_agenda {
+  margin-left: 30em;
+}
+/* FIM CSS AREA CULTURA */
+
+/* INICIO CSS AREA EMPRESA */
+
+.btn-vermais {
+  color: white;
+  background-color: #ff9f1c;
+  text-transform: uppercase;
+}
+.img_diario {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.img_diario:hover {
+  opacity: 0.8;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.28);
+  transform: scale(1.1);
+}
+
+.emp_page_link {
+  margin: 1em;
+}
+
+.emp_textos {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.emp_position_a {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.emp_position_r {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pages-empresas {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+main.empresa {
+  padding: 1em 0em;
+}
+.projetos{
+  margin-bottom: 2em;
+}
+.imagemcentral_empresas {
+  width: 100%;
+}
+.link_home {
+  background-color: #00a6a6;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  margin-bottom: 5em;
+}
+.section_diario a {
+  height: 10%;
+}
+.botao_empresa {
+  margin-left: 60em;
+  background-color: #1d2f6f;
+  color: white;
+  box-shadow: 2px 2px rgba(78, 78, 78, 0.2);
+}
+.iptu {
+  border: 1px solid;
+  background-color: #d9d9d9;
+  margin-top: 2em;
+  box-shadow: 0px 2px 3px 2px rgba(78, 78, 78, 0.2);
+}
+#pag_iptu {
+  margin: 2em -1em;
+}
+.head_iptu {
+  background-color: #1d2f6f;
+  color: #ffffff;
+}
+.edicao {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.49);
+  border-radius: 0.6em;
+  padding: 1em 0em;
+  margin-top: 2em;
+}
+.botoes_diario {
+  background-color: #1d2f6f;
+  color: white;
+  padding: 0.5em 3em 0.5em 3em;
+}
+
+.botoes_diario:hover {
+  background-color: #3552b9;
+  color: white;
+}
+
+form.cadastrojuridico {
+  border: 1px solid;
+  padding: 1em 2.5em;
+  box-shadow: 3px 4px 5px 3px rgba(78, 78, 78, 0.3);
+}
+select {
+  height: 54%;
+  border-radius: 0.3em;
+}
+.accordion-header {
+  text-align: center;
+}
+/* FIM CSS AREA EMPRESA */
+
+/* INICIO CSS AREA TURISMO */
+
+.not_back {
+  background-color: #00a6a6;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.not_i_shadow {
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
+  margin: 0em 0em 0em 5em;
+  padding: 1em 1em 1em 1em;
+}
+
+.tur_galeria_index {
+  padding: 0 2.5em 0 2.5em;
+}
+
+.not_titulos {
+  font-weight: bold;
+}
+
+.not_link {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+.not_vejamais {
+  padding-top: 2em;
+}
+
+.tur_back {
+  background-color: #00a6a6;
+}
+
+.tur_i_h2 {
+  padding: 1em 0em 1em 0em;
+}
+
+/* INICIO CSS PONTOS TURISTICOS*/
+
+.tur_btn-vermais {
+  color: black;
+  background-color: #ff9f1c;
+  border: 10px solid white;
+  padding: 1em;
+}
+
+.tur_btn-vermais:hover {
+  background-color: #ff9a0d;
+  color: white;
+  border: 10px solid #ff9a0d;
+}
+
+.tur_btn_pad {
+  padding: 0.5em;
+}
+
+.tur_cor_servicos {
+  color: #ff9f1c;
+}
+/* FIM CSS PONTOS TURISTICOS */
+
+/* INICIO CSS EVENTOS */
+
+.tur_h2 {
+  padding: 1em;
+}
+
+.tur_border {
+  border-top: 1px black solid;
+}
+
+/* FIM CSS EVENTOS */
+
+/* INICIO CSS HOSPEDAGEM*/
+
+.tur_titulos {
+  font-weight: bold;
+  padding: 1.5em 0 0em 0;
+}
+
+.tur_hospedagem_h2 {
+  padding: 1em 1em 0.5em 1em;
+}
+
+.tur_shadow {
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.63);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.63);
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
+
+.tur_i_shadow {
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.29);
+  margin-left: 5em;
+  margin-bottom: 1em;
+}
+
+/* FIM CSS HOSPEDAGEM*/
+
+/* INICIO CSS GASTRONOMIA*/
+
+.tur_gastro_h2 {
+  padding: 1.5em 0em 0em 0em;
+}
+
+.tur_h3 {
+  padding-top: 1em;
+}
+/* FIM CSS GASTRONOMIA*/
+
+/* INICIO CSS GALERIA*/
+
+.tur_btn_vermais {
+  color: black;
+  background-color: #ff9f1c;
+  border: none;
+}
+
+.tur_btn_vermais:hover {
+  background-color: #ff9a0d;
+  color: white;
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.tur_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.tur_link:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.tur_position_r {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.tur_position_a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* FIM CSS AREA TURISMO */
+
+/* Inicio Media Queries*/
+
+@media screen and (max-width: 1400px) {
+  /* Atualização Header */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Atualização Header */
+
+  #navPrincipal .nav-item {
+    padding: 3px 10px;
+    background-color: rgba(128, 128, 128, 0.068);
+    margin: 2px;
+  }
+
+  #navPrincipal li a {
+    width: 100%;
+    text-align: left;
+  }
+
+  #secoes-portais > * {
+    min-height: 515px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Atualização Header*/
+
+  header {
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25);
+  }
+
+  .barra-azulzinha {
+    min-height: 1em;
+  }
+
+  #secoes-portais .cidade .img-home-princ {
+    position: relative;
+  }
+
+  #secoes-portais a[href*="cidade"] {
+    min-height: 150px;
+  }
+
+  #secoes-portais .cidade picture {
+    max-width: 150px;
+  }
+
+  #secoes-portais h2 {
+    font-size: 1.5em;
+  }
+
+  li.dropdown {
+    padding: 2px 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  li.dropdown a,
+  #navPrincipal li {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  li.dropdown menu {
+    width: calc(100% + 42px);
+    margin: -3px -21px;
+  }
+  .nav-item.btn {
+    border-radius: 0;
+  }
+
+  .nav-item.btn > a {
+    text-transform: capitalize;
+  }
+
+  footer {
+    box-shadow: 0px -3px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  footer > div:first-child {
+    padding: 1em 2em;
+    font-size: 0.75em;
+  }
+
+  .desenvolvido-por {
+    max-width: 161px;
+  }
+
+  .desenvolvido-por p {
+    margin: 0;
+  }
+
+  .desenvolvido-por i {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .paginas-area-cidade .img-grande .titulo-verde-agua{
+    padding-left: 2em;
+  }
+
+  .paginas-area-cidade > main > article > div:first-child {
+    text-align: center;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+
+.paginas-area-cidade > main > article > div:first-child div > p{
+    text-align: left;
+    
+}
+
+.paginas-area-cidade > main > article > div:first-child h1,
+.paginas-area-cidade > main > article > div:first-child hgroup p
+{
+    text-align: center;
+}
+
+  .paginas-area-cidade .home-cidade .poster,
+  .paginas-area-cidade #dados-gerais .poster {
+    background-image: url(../imgs/cidade/dados_gerais_md1.webp);
+  }
+
+  .paginas-area-cidade .cidade-historia .poster {
+    background-image: url(../imgs/cidade/historia_poster_md.webp);
+  }
+
+  .paginas-area-cidade #sessao-hino .poster {
+    background-image: url(../imgs/cidade/hino_poster_md.webp);
+  }
+
+  .paginas-area-cidade #pessoas-notaveis .poster {
+    background-image: url(../imgs/cidade/pessoas_notaveis_md1.webp);
+  }
+
+  .paginas-area-cidade #cidade-simbolos .poster {
+    background-image: url(../imgs/cidade/simbolos_md1.webp);
+  }
+
+  #hc-sessao-historia .img-grande{
+    padding: 0px;
+  }
+
+  #hc-sessao-hino figure{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 576px){
+
+  .paginas-area-cidade article.container-lg{
+    padding: 0px 0px;
+  }
+
+    .paginas-area-cidade .home-cidade .poster, 
+.paginas-area-cidade #dados-gerais .poster{
+    background-image: url(../imgs/cidade/dados_gerais_sm1.webp);
+}
+
+.paginas-area-cidade .cidade-historia .poster{
+    background-image: url(../imgs/cidade/historia_poster_sm.webp);
+}
+
+.paginas-area-cidade #sessao-hino .poster{
+    background-image: url(../imgs/cidade/hino_poster_sm.webp);
+
+}
+
+.paginas-area-cidade #pessoas-notaveis .poster{
+    background-image: url(../imgs/cidade/pessoas_notaveis_sm1.webp);
+}
+
+.paginas-area-cidade #cidade-simbolos .poster{
+    background-image: url(../imgs/cidade/simbolos_sm1.webp);
+}
+
+.hc-cards-pessoas{
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hc-card-pessoa{
+  flex-shrink: 0;
+  flex-grow: 1;
+  width: auto;
+}
+
+}
+
+/* Fim Media Queries*/
+/* REFERENCIAS */
+
+.referencias_link{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ff9a0d;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,72 @@
+.barra-azul{
+    height: 25px;
+    background-color: #1d2f6f;
+}
+
+.navbar{
+    max-width: 1320px;
+    margin: auto;
+}
+
+#navbarPrincipalComprimido > ul{
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.logo{
+    display: flex;
+}
+
+.navbarSecundaria{
+    width: 100%;
+    background-color: #1d2f6f;
+}
+
+.navbarSecundaria .nav-item{
+    padding: 5px;
+    flex-grow: 1;
+    line-height: 2.2em;
+}
+
+.navbarSecundaria .nav-link{
+    color: white;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.navbarSecundaria ul.nav{
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    max-width: 800px;
+}
+
+.navbarSecundaria .nav-pills .nav-link.active{
+    background-color: #00a6a6;
+}
+
+.navbarCategoria .navbar{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.navbarCategoria{
+    background-color: #00a6a6;
+}
+
+.navbarCategoria .navbar-nav{
+    padding: 0px 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbarCategoria .nav-link{
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    .navbarSecundaria .nav-link{
+        font-size: 0.8em;
+    }
+}
