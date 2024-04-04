@@ -9,11 +9,6 @@ html{
  box-sizing: initial;
 }
 
-.bg-white{
-  background-color: #f2f2f2!important;
-  color: black!important;
-}
-
 header .logo * {
   max-height: 90px;
 }
@@ -28,14 +23,6 @@ footer .desenvolvido-por i{
 
 header a:hover .logo * {
   transform: scale(1.1);
-}
-
-.bg-azul-escuro {
-  background-color: #10246b !important;
-}
-
-.font22 {
-  font-size: 22px;
 }
 
 /* Estilos Universais */
@@ -91,10 +78,6 @@ menu {
   padding: 0 2em 0 2em;
 }
 
-.topo {
-  margin-top: 3.4em;
-}
-
 img {
   max-width: 100%;
 }
@@ -103,56 +86,8 @@ header,
 header > div {
   max-width: 100%;
 }
-header nav .btn {
-  padding: 0;
-  background-color: #3552b9;
-  color: white;
-}
-
-.barra-azulzinha {
-  background-color: #1d2f6f;
-  color: white;
-  height: 35px;
-  padding-top: 0;
-  align-items: center;
-}
-
-.rolarParaTopo {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-}
-
-/* Atualização Header*/
 
 /* Navbar Principal */
-
-header .container-fluid.bg-light nav {
-  max-width: 1000px;
-  gap: 30px;
-}
-
-.placeholder-acess {
-  height: 35px;
-  width: 10px;
-}
-
-header .botao-sanduiche {
-  border: 0;
-}
-
-header .botao-sanduiche span {
-  font-size: 1.2em;
-}
-
-header .botao-sanduiche:hover span {
-  font-size: 1.25em;
-}
-
-header .botao-sanduiche:focus {
-  border: none;
-  background-color: #00a6a6;
-}
 
 .nav-item {
   display: flex;
@@ -164,64 +99,6 @@ header .botao-sanduiche:focus {
   display: flex;
 }
 
-#navPrincipal .nav-link {
-  color: black;
-}
-
-#navPrincipal .nav-link:hover {
-  font-weight: bold;
-  color: #ff9a0d;
-}
-
-/* Navbar Secundario */
-
-div.nav-secundario {
-  background-color: #10246b;
-}
-
-#navSecundario > menu {
-  max-width: 800px;
-  padding: 5px;
-}
-
-#navSecundario .nav-item:hover {
-  background-color: #00a6a6;
-  font-weight: bold;
-}
-
-.nav-item.btn > a {
-  padding: 3px;
-  text-transform: uppercase;
-}
-
-.nav-item.btn > .nav-link {
-  color: white;
-}
-
-.nav-item.btn:hover > .nav-link,
-.nav-item.btn:hover > .dropdown-toggle {
-  color: white;
-}
-
-.dropdown-toggle {
-  background-color: transparent;
-  text-align: center;
-  height: 100%;
-  color: white;
-  border: 0;
-}
-
-.dropdown-toggle:hover {
-  background-color: rgba(0, 0, 0, 0.26);
-}
-
-.dropdown menu li a {
-  width: 100%;
-}
-
-.dropdown-menu {
-  background-color: rgba(226, 226, 226, 0.99);
-}
 
 /*Home principal*/
 

@@ -17,7 +17,7 @@
             </a>
 
             <!-- Botão acessível para expandir e comprimir a NavBar -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipalComprimido" aria-controls="navbarPrincipalComprimido" aria-expanded="false" aria-label="Alternar navegação">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipalComprimido" aria-controls="navbarPrincipalComprimido" aria-expanded="false" aria-label="Mostrar Menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -52,11 +52,11 @@
 
 
     <!-- Navbar Secundaria -->
-    <nav class="navbarSecundaria" aria-label="Menu Sessões da Página">
-    <!-- Descrição geral para a navegação -->
-    <p id="descricaoMenu" class="visually-hidden">Selecionando um item do menu, você será direcionado para a página inicial da categoria correspondente.</p>
-    <ul class="nav nav-pills container-lg" role="tablist" aria-describedby="descricaoMenu">
-        <!-- Itens do menu -->
+    <nav class="navbarSecundaria" aria-label="Sessões da Página">
+        <!-- Descrição geral para a navegação -->
+        <p id="descricaoMenu" class="visually-hidden">Selecionando uma guia, você será direcionado para a página inicial da categoria correspondente.</p>
+        <ul class="nav nav-pills container-lg" role="tablist" aria-describedby="descricaoMenu">
+            <!-- Itens do menu -->
             <li class="nav-item" role="presentation">
                 <a class="nav-link" id="tab-cidade" role="tab" aria-controls="nav-cidade" aria-selected="false" href="/<?= $pasta_raiz; ?>/cidade/">A CIDADE</a>
             </li>

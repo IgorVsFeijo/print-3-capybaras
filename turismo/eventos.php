@@ -10,7 +10,7 @@
         include '../includes/inc_head_links.php';
       ?>
 
-    <link rel="stylesheet" href="../style/turismo.css">
+    
 
 </head>
 <body>

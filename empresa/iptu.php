@@ -9,7 +9,7 @@
   <?php
   include '../includes/inc_head_links.php';
   ?>
-  <link rel="stylesheet" href="../style/empresa.css">
+  
 
 </head>
 
