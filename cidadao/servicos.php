@@ -50,9 +50,9 @@
                     </div>
                 </section>
             </article>
-        <div class="col-12">
+        <article class="col-12">
             <div class="row justify-content-between">
-                <article class="col-lg-4 col-md-12 col-sm-12 sombra cidadao_servicos cidadao_servicos_escolar">
+                <section class="col-lg-4 col-md-12 col-sm-12 sombra cidadao_servicos cidadao_servicos_escolar">
                     <h2 class="text-center">Educação</h2>
                     <p>A cidade de São Roque está comprometida a oferecer educação de qualidade aos seus cidadãos, nesta seção você encontrará serviços a este tema.</p>
                     <ul>
@@ -128,9 +128,9 @@
                             </tr>
                         </table>
                     </div>
-                </article>
+                </section>
 
-                <article class="col-lg-7 col-md-12 col-sm-12 sombra cidadao_servicos">
+                <section class="col-lg-7 col-md-12 col-sm-12 sombra cidadao_servicos">
                     <h2 class="text-center">Empregabilidade</h2>
                     <p>Estamos comprometidos a fomentar o crescimento econômico do município e manter o bem-estar de nossa população. Por isso, essa seção é dedicada a divulgar e oferecer oportunidades de emprego, aqui você encontrará todas as informações referentes a esse tema.</p>
 
@@ -165,9 +165,9 @@
                         <input class="form-control" type="email" placeholder="Email">
                         <button class="btn btn-vermais">Enviar</button>
                     </form>
-                </article>
+                </section>
             </div>
-        </div>
+        </article>
 
         <div class="col-12">
             <div class=" row justify-content-between">
