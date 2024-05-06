@@ -35,9 +35,9 @@
 
         <article>
           <div class="row align-items-center sombra">
-            <figure class="col-lg-4 col-md-4 text-center">
+            <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Emanuele.jpeg" alt="Foto da Emanuele, a Gerente do projeto e responsável pela área de Cidadão">
-            </figure>
+            </div>
             <div class="col-lg-8 col-md-8 quemsomos_conteudo align-items-center">
               <h2>Emanuele Cristina da Silva</h2>
               <p><b>R.A.:</b> 2650832313017</p>
@@ -52,9 +52,9 @@
 
         <article>
           <div class="row align-items-center sombra">
-            <figure class="col-lg-4 col-md-4 text-center">
+            <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Henrique.jpeg" alt="Foto do Henrique, o Web Writer do site e responsável pela área de Cultura">
-            </figure>
+            </div>
             <div class="col-lg-8 col-md-8 quemsomos_conteudo align-items-center">
               <h2>Henrique Silva Ribeiro</h2>
               <p><b>R.A.:</b> 2650832313014</p>
@@ -69,9 +69,9 @@
 
         <article>
           <div class="row align-items-center sombra">
-            <figure class="col-lg-4 col-md-4 text-center">
+            <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Igor.jpeg" alt="Foto do Igor, Coder do site e responsável pela área de Cidade">
-            </figure>
+            </div>
             <div class="col-lg-8 col-md-8 quemsomos_conteudo align-items-center">
               <h2>Igor Vinicius Silveira Feijó</h2>
               <p><b>R.A.: </b>2650832313019</p>
@@ -86,9 +86,9 @@
 
         <article>
               <div class="row align-items-center sombra">
-                <figure class="col-lg-4 col-md-4 text-center">
+                <div class="col-lg-4 col-md-4 text-center">
                   <img src="imgs/Joao.jpg" alt="Foto do João, o Sub-Gerente do projeto e responsável pela área de Governo">
-                </figure>
+                </div>
                 <div class="col-lg-8 col-md-8 quemsomos_conteudo align-items-center">
                   <h2>João Paulo de Sousa</h2>
                   <p><b>R.A.:</b> 2650832313007</p>
@@ -103,9 +103,9 @@
         
         <article>
           <div class="row align-items-center sombra">
-            <figure class="col-lg-4 col-md-4 text-center">
+            <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Pietro.jpeg" alt="Foto do Pietro, o Designer do site e responsável pela área de Turismo">
-            </figure>
+            </div>
             <div class="col-lg-8 col-md-8 quemsomos_conteudo align-items-center">
               <h2>Pietro Ricardo Black Fracalanza Muzy</h2>
               <p><b>R.A.:</b> 2650832313027</p>

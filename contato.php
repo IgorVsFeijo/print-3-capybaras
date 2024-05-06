@@ -24,7 +24,7 @@
 
     <div class="container g-5">
       <main class="row align-items-center contato">
-          <div class="col-lg-6 col-md-12 col-sm-12">
+          <section class="col-lg-6 col-md-12 col-sm-12">
               <div class="row text-center justify-content-between contato_botoes">
                   <a class="col-lg-6 col-md-6 col-sm-12" href="#"><i class="bi bi-envelope-fill"></i> <p>Email</p></a>
                   <a class="col-lg-6 col-md-6 col-sm-12" href="#"><i class="bi bi-telephone-fill"></i><p>Telefone</p><p>(11) 4784-8500</p></a>
@@ -32,9 +32,9 @@
                   <a class="col-lg-6 col-md-6 col-sm-12" href="#"><i class="bi bi-clock-fill"></i><p>Horário de funcionamento</p><p>De segunda a sexta, das 09:00 às 15:00 horas.
                   </p></a>
               </div>
-          </div>
+          </section>
 
-          <div class="col-lg-6 col-md-12 col-sm-12 contato_form">
+          <section class="col-lg-6 col-md-12 col-sm-12 contato_form">
               <form class="row" action="post">
                   <label class="text-center">Contate-nos</label>
                   <input class="form-control" type="text" placeholder="Nome">
@@ -42,7 +42,7 @@
                   <textarea placeholder="Escreva sua mensagem..." class="form-control"></textarea>
                   <button class="btn btn-vermais">Enviar</button>
               </form>
-          </div>
+          </section>
           <?php 
           include 'includes/inc_referencias.php';
           ?>
