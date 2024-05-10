@@ -109,7 +109,6 @@
                           <p>Focados em levar o espírito do rock brasileiro para as novas e velhas gerações, a Banda Jamais Vistos vem ganhando notoriedade no ramo musical de São Roque e na região, realizando shows em festas e clubes. A banda já tocou nas festas paroquiais, no Clube Come Together e na Neo Química Arena.</p>
                       </section>
                     </div>
-                    
                 </div>
             </article>
             <?php 

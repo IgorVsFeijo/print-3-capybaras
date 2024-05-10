@@ -53,7 +53,7 @@
                         </form>
                   </section>
                   <section class="col-6"> 
-                      <h2 class="hide">Section - h2</h2>
+                      <h3 class="hide">Section - h2</h3>
                       <table class="table table-bordered text-center">
                         <thead>
                           <tr>

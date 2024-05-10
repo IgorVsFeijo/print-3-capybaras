@@ -35,9 +35,9 @@
             </aside>
             <div>
               <article class="row col-12">
-                <h2 class="hide">Article - h2</h2>
+                <h3 class="hide">Article - h2</h3>
                 <section class="row col-lg-6 festasagosto">
-                  <h2 class="hide">section-h2</h2>
+                        <h3 class="hide">section-h2</h3>
                         <div class="col-sm-6 col-lg-12">
                           <h3>Festas de Agosto</h3>
                           <p>As Festas de Agosto são a principal atividade comemorativa da cidade, envolvendo todas as suas áreas em uma linda celebração e homenagem ao padroeiro, São Roque. As festividades têm ligação direta com a fundação da cidade por Pedro Vaz de Barros, mas foi somente no fim do século XIX, com a introdução dos Carros de Lenha, que elas tomaram o formato que se estende até hoje.</p>
@@ -54,7 +54,7 @@
                         <p class="col-12">A festa é finalizada em seu ápice nos dias 15 e 16 de Agosto com as procissões de Nossa Senhora da Assunção e do padroeiro São Roque, respectivamente, atraindo milhares de fiéis para a belíssima conclusão. Até hoje, as Festas de Agosto se consolidam como o maior evento festivo e religioso da região.</p>
                 </section>
                 <section class="row col-lg-6 exposr">
-                  <h2 class="hide">section -  h2</h2>
+                        <h3 class="hide">section -  h2</h3>
                         <picture class="col-sm-6 col-md-6 col-lg-12 d-lg-none text-center">
                             <source media="(max-width: 992px)" srcset="../imgs/cultura/exposaoroque.webp"><img src="..." alt="">
                         </picture> 
@@ -67,7 +67,7 @@
                             </picture>
                           </figure>
                         </div>  
-                          <p>Mesmo que o evento não tenha ocorrido desde 2019, ele ainda se mantém como um dos mais aguardados e prestigiados de nossa cidade, ajudando a divulgar o potencial cultural e turístico da cidade. Além dos stands a respeito do vinho, a Expo São Roque também reúne outros stands de gastronomia, compras, shows e outras manifestações artísticas.</p>
+                        <p>Mesmo que o evento não tenha ocorrido desde 2019, ele ainda se mantém como um dos mais aguardados e prestigiados de nossa cidade, ajudando a divulgar o potencial cultural e turístico da cidade. Além dos stands a respeito do vinho, a Expo São Roque também reúne outros stands de gastronomia, compras, shows e outras manifestações artísticas.</p>
                 </section>
               </article>
             </div>
