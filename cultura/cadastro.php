@@ -22,13 +22,13 @@
     <!-- Fim Header -->
 
     <div class="container">
-        <main class="pages_cultura">
+        <main class="pages_cultura" role="main">
           <div class="row text-start">
             <b><a href="../cultura/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../cultura/cadastro.php">Cadastro de Artistas e Grupos</a></b>
           </div>
-            <article>
-                <h2>Faça seu cadastro!</h2>
-                <form class="row g-4">
+            <article role="article" aria-labelledby="article-heading">
+                <h2 id="article-heading">Faça seu cadastro!</h2>
+                <form class="row g-4" role="form">
                   <div class="col-12">
                     <label for="inputName4" class="form-label">Nome do Artista/Grupo</label>
                     <input type="text" class="form-control" id="inputName4">

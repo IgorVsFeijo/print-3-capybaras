@@ -22,17 +22,17 @@
     <!-- Fim Header -->
 
     <div class="container">
-        <main class="pages_cultura">
+        <main class="pages_cultura" role="main">
           <div class="row text-start">
             <b><a href="../cultura/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../cultura/agendamento.php">Agendamento</a></b>
         </div>
-            <article class="col-12">
+            <article class="col-12" role="article" aria-labelledby="main-heading">
                 <h2 class="hide">Article - h2</h2>
                 <div class="row">
-                  <section class="col-6">
-                      <h2>Programe o seu espetáculo aqui!</h2>
+                  <section class="col-6" role="region">
+                      <h2 id="main-heading">Programe o seu espetáculo aqui!</h2>
                       <p>O espaço para apresentação está localizado na Brasital. Escolha uma sala, data e cheque a disponibilidade para preparar o ambiente e agendar o seu espetáculo.</p>
-                        <form class="row">
+                        <form class="row" role="form">
                           <label for="inputName4" class="form-label">
                             Nome do Artista/Grupo
                           </label>
@@ -52,51 +52,51 @@
                           </label>
                         </form>
                   </section>
-                  <section class="col-6"> 
+                  <section class="col-6" role="region"> 
                       <h3 class="hide">Section - h2</h3>
-                      <table class="table table-bordered text-center">
+                      <table class="table table-bordered text-center" role="table">
                         <thead>
                           <tr>
-                            <th scope="col">LOCAL</th>
-                            <th scope="col">DATA</th>
-                            <th scope="col">DISPONIBILIDADE</th>
+                            <th scope="col" id="col-local">LOCAL</th>
+                            <th scope="col" id="col-data">DATA</th>
+                            <th scope="col" id="col-disponivel">DISPONIBILIDADE</th>
                           </tr>
                         </thead>
                         <tbody>
                         <tr>
-                              <td>Sala 01</td>
-                              <td>25/11 - 26/11</td>
-                              <td>SIM</td>
+                              <td headers="col-local">Sala 01</td>
+                              <td headers="col-data">25/11 - 26/11</td>
+                              <td headers="col-disponivel">SIM</td>
                           </tr>
                           <tr>
-                              <td>Sala 02</td>
-                              <td>02/12 - 03/12</td>
-                              <td>SIM</td>
+                              <td headers="col-local">Sala 02</td>
+                              <td headers="col-data">02/12 - 03/12</td>
+                              <td headers="col-disponivel">SIM</td>
                           </tr>
                           <tr>
-                              <td>Sala 03</td>
-                              <td>02/12 - 03/12</td>
-                              <td>NÃO</td>
+                              <td headers="col-local">Sala 03</td>
+                              <td headers="col-data">02/12 - 03/12</td>
+                              <td headers="col-disponivel">NÃO</td>
                           </tr>
                           <tr>
-                              <td>Sala 04</td>
-                              <td>25/11 - 26/11</td>
-                              <td>SIM</td>
+                              <td headers="col-local">Sala 04</td>
+                              <td headers="col-data">25/11 - 26/11</td>
+                              <td headers="col-disponivel">SIM</td>
                           </tr>
                           <tr>
-                              <td>Sala 05</td>
-                              <td>25/11 - 26/11</td>
-                              <td>NÃO</td>
+                              <td headers="col-local">Sala 05</td>
+                              <td headers="col-data">25/11 - 26/11</td>
+                              <td headers="col-disponivel">NÃO</td>
                           </tr>
                           <tr>
-                              <td>Sala 06</td>
-                              <td>09/12 - 10/12</td>
-                              <td>SIM</td>
+                              <td headers="col-local">Sala 06</td>
+                              <td headers="col-data">09/12 - 10/12</td>
+                              <td headers="col-disponivel">SIM</td>
                           </tr>
                           <tr>
-                              <td>Sala 07</td>
-                              <td>02/12 - 03/12</td>
-                              <td>NÃO</td>
+                              <td headers="col-local">Sala 07</td>
+                              <td headers="col-data">02/12 - 03/12</td>
+                              <td headers="col-disponivel">NÃO</td>
                           </tr>
                         </tbody>
                       </table>

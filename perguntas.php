@@ -23,11 +23,11 @@
     <!-- Fim Header -->
 
     <div class="container">
-      <main id="perguntas">
+      <main id="perguntas" role="main" aria-labelledby="main-heading">
           <h2>Encontre respostas para as dúvidas mais comuns sobre a nossa cidade</h2>
           <p>Aqui estão as dúvidas mais recorrentes que as pessoas possuem sobre os diferentes aspectos da nossa cidade. Aproveite para sanar todas e tirar o máximo de proveito dos nossos serviços.</p>
-          <article>
-            <h3>Dúvidas Gerais</h3>
+          <article role="article">
+            <h3 id="main-heading">Dúvidas Gerais</h3>
             <div class="accordion col-12" id="accordionExample">
               <div class="row">
                 <div class="accordion-item col-sm-12 col-md-6">
