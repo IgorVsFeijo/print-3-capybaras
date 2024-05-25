@@ -25,6 +25,7 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/Galeria.php">Galeria</a></b>
         </div>
+        <main>
         <article>
             <h1 class="hide">Galeria de fotos dos Pontos Turisticos de São Roque</h1>
             <div class="row">
@@ -91,6 +92,7 @@
                 </section>
             </div>
         </article>
+        </main>
         <?php 
           include '../includes/inc_referencias.php';
           ?>

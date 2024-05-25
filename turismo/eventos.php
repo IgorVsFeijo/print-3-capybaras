@@ -22,6 +22,7 @@
 
     <!-- Fim Header -->
     <div class="container text-center">
+      <main>
         <div class="row text-start">
             <b><a href="../turismo/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/eventos.php">Eventos</a></b>
         </div>
@@ -62,6 +63,7 @@
                 </section>
             </div>
         </aside>
+      </main>
 
         <aside>
             <h2 class="tur_h2 tur_border">EVENTOS ENCERRADOS</h2>
@@ -112,7 +114,7 @@
         <?php 
           include '../includes/inc_referencias.php';
           ?>
-    </div>
+  </div>
 
   <!-- Inicio do Footer -->
 

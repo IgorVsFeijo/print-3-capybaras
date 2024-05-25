@@ -27,7 +27,7 @@
                 <img src="../imgs/turismo/topo_desktop.webp" alt="Imagem referente a brasital com o logo de são roque">
             </figure>
         </div>
-
+        <main>
         <article>
             <div class="row text-start tur_i_h2">
                 <h2>EVENTOS</h2>
@@ -140,6 +140,7 @@
                 </section>
             </div>
         </section>
+        </main>
         <?php 
           include '../includes/inc_referencias.php';
           ?>

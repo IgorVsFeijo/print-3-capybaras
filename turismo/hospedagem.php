@@ -25,7 +25,7 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/hospedagem.php">Hospedagem</a></b>
         </div>
-
+        <main>
         <article>
             <h2 class="tur_hospedagem_h2">Acampamentos</h2>
             <div class="row">
@@ -154,6 +154,7 @@
                 </section>
             </div>
         </article>
+        </main>
         <?php 
           include '../includes/inc_referencias.php';
           ?>

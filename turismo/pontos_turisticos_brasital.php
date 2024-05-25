@@ -25,6 +25,7 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php"> Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/pontos_turisticos.php"> Pontos turisticos</a>  <i class="bi bi-arrow-right"></i><a href="../turismo/pontos_turisticos_brasital.php"> Brasital</a> </b>
         </div>
+        <main>
         <article>
             <h2>Brasital</h2>
             <figure>
@@ -62,6 +63,7 @@
                     </svg> Trilhas e passeios calmos.</p>
             </div>
         </section>
+        </main>
 
         <?php 
           include '../includes/inc_referencias.php';

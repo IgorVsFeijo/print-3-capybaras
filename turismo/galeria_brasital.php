@@ -23,6 +23,7 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php"> Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/galeria.php"> Galeria</a>  <i class="bi bi-arrow-right"></i><a href="../turismo/galeria_brasital.php"> Brasital</a> </b>
         </div>
+        <main>
         <article>
             <h2>Brasital</h2>
             <div class="row">
@@ -70,6 +71,7 @@
                 </section>
             </div>
         </article>
+        </main>
         <?php 
           include '../includes/inc_referencias.php';
           ?>

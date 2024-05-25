@@ -25,6 +25,7 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/gastronomia.php">Gastronomia</a></b>
         </div>
+        <main>
         <article>
             <h2 class="text-start tur_gastro_h2">Adegas e Vinículas</h2>
             <div class="row">
@@ -193,6 +194,7 @@
                 </section>
             </div>
         </aside>
+        </main>
         <?php 
           include '../includes/inc_referencias.php';
           ?>
