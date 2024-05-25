@@ -29,12 +29,12 @@
             <figure class="text-center">
                 <img src="../imgs/cultura/festaagostoilustracao.jpg" alt="Visão Aérea da Festa de Agosto durante a noite, no último dia da festa" role="img">
             </figure>
-            <aside role="complementary" aria-labelledby="aside-heading">
+            <aside role="complementary" aria-labelledby="aside-heading" aria-label="Breve descrição a respeito das tradições e a relação atual de São Roque com elas, por meio de suas festas">
                 <h2 id="aside-heading">CONHEÇA AS NOSSAS FESTAS!</h2>
                 <p>A cultura de uma cidade não apenas é construída por produtos e lugares, mas por tradições que envolvem toda a sua população. São Roque é conhecida também por abrigar grandes eventos e festas que reúnem a todos em celebrações únicas, proporcionando prestígio e experiências marcantes para milhares de pessoas. Confira a seguir as principais comemorações da nossa cidade.</p>
             </aside>
             <div>
-              <article class="row col-12" role="article">
+              <article class="row col-12" role="article" aria-label="Nessa seção da página, constam as duas principais comemorações e atrações da cidade. As Festas de Agosto, comemorando o aniversário da cidade; e a Expo, prestigiando a cultura vinícola">
                 <h3 class="hide">Article - h2</h3>
                 <section class="row col-lg-6 festasagosto" role="region" aria-labelledby="section-heading">
                         <h3 class="hide">section-h2</h3>

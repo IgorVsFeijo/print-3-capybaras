@@ -29,32 +29,34 @@
             <article class="col-12" role="article" aria-labelledby="main-heading">
                 <h2 class="hide">Article - h2</h2>
                 <div class="row">
-                  <section class="col-6" role="region">
+                  <section class="col-6" role="region" aria-label="Apresentação inicial da página e sua funcionalidade no portal">
                       <h2 id="main-heading">Programe o seu espetáculo aqui!</h2>
                       <p>O espaço para apresentação está localizado na Brasital. Escolha uma sala, data e cheque a disponibilidade para preparar o ambiente e agendar o seu espetáculo.</p>
-                        <form class="row" role="form">
+                        <form class="row" role="form" aria-label="formulário para preenchimento de informações para agendar um show ou espetáculo no espaço da Brasital">
                           <label for="inputName4" class="form-label">
                             Nome do Artista/Grupo
                           </label>
-                          <input type="text" class="form-control" id="inputName4">
+                          <input type="text" class="form-control" id="inputName4" title="Digite o seu nome completo">
                           <label for="inputEmail4" class="form-label">
                             Email
                           </label>
-                          <input type="email" class="form-control" id="inputEmail4">
+                          <input type="email" class="form-control" id="inputEmail4" title="Digite seu email no formato: usuario@email.com">
                           <div class="col-12">
                             <label for="inputPhone4" class="form-label">
                               Telefone para Contato
                             </label>
-                            <input type="tel" class="form-control" id="inputPhone4" placeholder="(00)00000-0000">
+                            <input type="tel" class="form-control" id="inputPhone4" placeholder="(00)00000-0000" title="Digite seu telefone no formato: (XX) XXXXX-XXXX">
+                            <div class="telefone_confirmado" aria-live="assertive" aria-atomic="true"></div>
                           </div>
                           <label class="g-4">
                             <button type="submit" class="btn btn-primary botao_agenda">ENVIAR</button>
+                            <div class="dados_confirmados" aria-live="assertive" aria-atomic="true"></div>
                           </label>
                         </form>
                   </section>
                   <section class="col-6" role="region"> 
                       <h3 class="hide">Section - h2</h3>
-                      <table class="table table-bordered text-center" role="table">
+                      <table class="table table-bordered text-center" role="table" aria-label="Tabela contendo todas as sete salas e datas informadas, bem como sua disponibilidade para uso">
                         <thead>
                           <tr>
                             <th scope="col" id="col-local">LOCAL</th>

@@ -27,19 +27,19 @@
                 <b><a href="../cultura/index.php">Home</a></b>
             </div>
             <figure class="text-center" role="figure">
-                <img class="img-fluid" src="../imgs/cultura/saoroque.jpg" alt="imagem aérea de São Roque, mostrando a maior parte do centro da cidade" role="img">
+                <img class="img-fluid" src="../imgs/cultura/saoroque.jpg" alt="imagem aérea de São Roque, mostrando a maior parte do centro da cidade e seus arredores" role="img">
             </figure>
-            <article role="article" aria-labelledby="article-heading">
+            <article role="article" aria-labelledby="article-heading" aria-label="conteúdo principal da home da seção Cultura. Essa página fala brevemente da história de São Roque na cultura, com três notícias da área e links para outras duas páginas da seção.">
                 <h2 id="article-heading">CIDADE DE CULTURA</h2>
                 <p>Fonte de renda fundamental para a nossa cidade e um de nossos maiores orgulhos, a cidade de São Roque conta com uma série única de atividades, lugares e eventos tradicionais-culturais. Não apenas ajudando no crescimento financeiro, mas colocando a nossa cidade no mapa de São Paulo como uma das principais produtoras de vinho do estado.</p>
                 <div class="row col-md-12">
-                    <div class="row col-md-6 col-lg-12 noticias_cultura">
+                    <div class="row col-md-6 col-lg-12 noticias_cultura" aria-label="seção da página com destaque para três notícias relacionadas a Cultura em São Roque.">
                         <h3 class="titulo">NOTÍCIAS</h3>
                         <div class="col-md-12 col-lg-4 text-center">
                             <section class="notícia_mobile" role="region" aria-labelledby="section-heading">
                                 <h3 class="hide">Section - h2</h3>
                                 <figure>
-                                    <a href="#" role="link"><img src="../imgs/cultura/noticia1.webp" alt="template oficial da Lei Paulo Gustavo" role="img"></a>
+                                    <a href="#" role="link"><img src="../imgs/cultura/noticia1.webp" alt="template oficial da Lei Paulo Gustavo com a logo amarela e uma foto do falecido ator no fundo" role="img"></a>
                                 </figure>
                                 <p id="section-heading">Entenda mais a fundo sobre a Lei Paulo Gustavo e os seus editais</p>
                             </section>
@@ -65,7 +65,7 @@
                     </div>
             </article>
             <aside role="complementary">
-                <div class="row col-12 conhecamais">
+                <div class="row col-12 conhecamais" aria-label="Seção da página com dois links com imagens e breves descrições. Estes links levam a duas outras páginas da seção de Cultura no portal.">
                     <h2>CONHEÇA MAIS!</h2>
                     <section class="col-md-6 text-center" role="region" aria-labelledby="section-heading">
                         <h3 class="hide">Section - h2</h3>

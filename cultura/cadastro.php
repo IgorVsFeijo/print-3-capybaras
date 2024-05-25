@@ -28,14 +28,15 @@
           </div>
             <article role="article" aria-labelledby="article-heading">
                 <h2 id="article-heading">Faça seu cadastro!</h2>
-                <form class="row g-4" role="form">
+                <form class="row g-4" role="form" aria-label="Formulário para preenchimento de dados para cadastro no sistema de Cultura">
                   <div class="col-12">
                     <label for="inputName4" class="form-label">Nome do Artista/Grupo</label>
                     <input type="text" class="form-control" id="inputName4">
                   </div>
                   <div class="col-12">
                     <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <input type="email" class="form-control" id="inputEmail4" title="Digite seu email no formato: usuario@email.com">
+                    <div class="email_confirmado" aria-live="assertive" aria-atomic="true"></div>
                   </div>
                   <div class="col-8">
                     <label for="inputTextarea" class="form-label">Objetivos</label>
@@ -69,7 +70,7 @@
                     </div>
                   </div>
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary botao_cultura">ENVIAR</button>
+                    <button type="submit" class="btn btn-primary botao_cultura" aria-pressed="false">ENVIAR</button>
                   </div>
                 </form>
             </article>
