@@ -26,7 +26,7 @@
 
     <div class="container text-start espaço_noticia">
 
-        <aside>
+        <article>
         <div class="row text-start">
             <b><a href="index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="noticias.php">Notícias</a></b>
         </div>
@@ -66,9 +66,9 @@
                 </section>
 
             </div>
-        </aside>
+        </article>
 
-        <aside class="not_back text-center">
+        <article class="not_back text-center">
             <div class="row">
                 <h2>Cidade</h2>
                 <section class="col-lg-5 col-md-5 col-sm-5 not_i_shadow">
@@ -105,9 +105,9 @@
                     <p class="not_titulos">São Roque abre inscrições para eleição do Conselho Municipal dos Direito da Juventude</p>
                 </section>
             </div>
-        </aside>
+        </article>
 
-        <aside>
+        <article>
             <h2>Saúde</h2>
             <div class="row">
             <section class="col-lg-5 col-md-5 col-sm-5 not_i_shadow">
@@ -128,7 +128,7 @@
                     <p>A equipe de Ginástica Rítmica de São Roque realizará nesta semana uma apresentação especial como forma de celebrar um ano de atividades repleto de conquistas.</p>
                 </section>
             </div>
-        </aside>
+        </article>
 
         <?php 
           include 'includes/inc_referencias.php';
