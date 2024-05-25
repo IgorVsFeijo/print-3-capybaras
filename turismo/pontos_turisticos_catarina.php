@@ -25,10 +25,11 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php"> Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/pontos_turisticos.php"> Pontos turisticos</a>  <i class="bi bi-arrow-right"></i><a href="../turismo/pontos_turisticos_catarina.php"> Outlet Catarina</a> </b>
         </div>
+        <main>
         <article>
             <h2>Outlet Catarina</h2>
             <figure>
-                <img src="../imgs/turismo/catarina_unica_desktop.webp" alt="Imagem Via Placeholder">
+                <img src="../imgs/turismo/catarina_unica_desktop.webp" alt="Paisagem com estacionamento com diversos carros, ao fundo catarina outlet suas estruturas cor branca, com iluminação amarela">
             </figure>
             <div class="row">
                 <p class="col-lg-6 col-md-6 col-sm-6 text-start">O Catarina tem como marca registrada suas alamedas agradáveis, um ambiente sofisticado e um completo mix de lojas com as melhores marcas nacionais e internacionais, que praticam descontos de até 70% o ano todo. São mais de 300 operações.</p>
@@ -62,6 +63,7 @@
                     </svg> Sanitários e estacionamento</p>
             </div>
         </section>
+        </main>
 
         <?php 
           include '../includes/inc_referencias.php';

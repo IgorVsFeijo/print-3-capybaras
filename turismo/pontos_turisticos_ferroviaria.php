@@ -25,10 +25,11 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php"> Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/pontos_turisticos.php"> Pontos turisticos</a>  <i class="bi bi-arrow-right"></i><a href="../turismo/pontos_turisticos_ferroviaria.php"> Estação Ferroviaria</a> </b>
         </div>
+        <main>
         <article>
             <h2>Estação Ferroviaria</h2>
             <figure>
-                <img src="../imgs/turismo/ferro_unica_desktop.webp" alt="Imagem Via Placeholder">
+                <img src="../imgs/turismo/ferro_unica_desktop.webp" alt="Imagem do trem cor verde com marrom, uma pessoa posando dentro do trem para foto, e uma escrita na lataria do trem, TREM TURISTICO SÃO ROQUE SP">
             </figure>
             <div class="row">
                 <p class="col-lg-6 col-md-6 col-sm-6 text-start">A Estrada de Ferro Sorocabana representa um marco importante na história de São Roque, sendo um de seus acionistas Antônio Joaquim da Rosa, o Barão de Piratininga, o que marcou uma grande fase no desenvolvimento da cidade.</p>
@@ -62,6 +63,7 @@
                     </svg> Estacionamento</p>
             </div>
         </section>
+        </main>
 
         <?php 
           include '../includes/inc_referencias.php';
