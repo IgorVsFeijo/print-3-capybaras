@@ -25,8 +25,8 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/pontos_turisticos.php">Pontos Turisticos</a></b>
         </div>
-        <main>
-        <article>
+        <main role="main">
+        <article role="article">
             <h1 class="hide">h1 - Article</h1>
             <div class="row tur_btn_pad">
                 <a class="btn btn-secondary col-lg-4 col-md-4 col-sm-6 tur_btn-vermais" href="../turismo/pontos_turisticos_brasital.php" role="button">

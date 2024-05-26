@@ -25,12 +25,12 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/hospedagem.php">Hospedagem</a></b>
         </div>
-        <main>
-        <article>
+        <main role="main">
+        <article role="article">
             <h2 class="tur_hospedagem_h2">Acampamentos</h2>
             <div class="row">
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Sitio de Lazer</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/acamp_sdl_desktop.webp" alt="Fundo com montanhas e ceu azul com um borrado, em destaque a escrita SITIO DE LAZER em em azul escuro e borda branca">
@@ -40,8 +40,8 @@
                     </p>
                 </section>
 
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide"  aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Acampamento</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/sem_emp_desktop.webp" alt="Fundo cinza, com escrita sem estilização Sua empresa aqui! contate-nos!">
@@ -53,11 +53,11 @@
             </div>
         </article>
 
-        <article>
+        <article role="article">
             <h2 class="tur_hospedagem_h2 tur_border">Hotéis</h2>
             <div class="row">
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide"  aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Hotel</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/sem_emp_desktop.webp" alt="Fundo cinza, com escrita sem estilização Sua empresa aqui! contate-nos!">
@@ -67,8 +67,8 @@
                     </p>
                 </section>
 
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Cordialle Hotel</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/hot_cordialle_desktop.webp" alt="fundo branco com detalhes em amarelo e centralizado a escrita Cordialle Hotel nas cores verde">
@@ -80,8 +80,8 @@
             </div>
 
             <div class="row">
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">São Roque Park Hotel</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/hot_park_desktop.webp" alt="Fundo azul com escrita por dentro em branco, São roque Park hotel com tipografia simples e san-serif">
@@ -91,8 +91,8 @@
                     </p>
                 </section>
 
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Villa Rossa</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/hot_villa_desktop.webp" alt="Fundo branco com escrita Hotel Villa Rossa, 5 estrelas amarelas acima do Rossa, com tipografia estilizada e chique">
@@ -104,11 +104,11 @@
             </div>
         </article>
 
-        <article>
+        <article role="article">
             <h2 class="tur_hospedagem_h2 tur_border">Pousadas</h2>
             <div class="row">
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Aconchego no Campo</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/pou_campo_desktop.webp" alt="Logotipo com fundo branco e escritas com tipografia estilizada e finas, escrito Achonchego no campo, ao lado da escrita tem uma folha alaranjada">
@@ -118,8 +118,8 @@
                     </p>
                 </section>
 
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Pousada Juriti</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/pou_juriti_desktop.webp" alt="logotipo no qual o fundo tem duas montanhas e um sol, e em destaque no centro a escrita Pousada Juriti, eco hotel nas cores verde e preto">
@@ -131,8 +131,8 @@
             </div>
 
             <div class="row">
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Chácara Putini</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/pou_putini_desktop.webp" alt="Logotipo com fundo preto e um circulo laranja, ao meio um simbolo cheio de circulos fazendo o formato de vento, no topo do circulo esta escrito Pousada chácara putini">
@@ -142,8 +142,8 @@
                     </p>
                 </section>
 
-                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow">
-                  <h3 class="hide">h3 - Section</h3>
+                <section class="col-lg-5 col-md-5 col-sm-12 text-start tur_shadow"  role="region">
+                  <h3 class="hide" aria-hidden="true">h3 - Section</h3>
                     <p class="tur_titulos">Sítio da Terra e Arte</p>
                     <figure class="text-center">
                         <img src="../imgs/turismo/pou_terra_desktop.webp" alt="Logotipo com fundo branco, ao centro uma galinha com traços dourados, e abaixo a escrita Sitio da terra e arte, nas cores dourada tambem">

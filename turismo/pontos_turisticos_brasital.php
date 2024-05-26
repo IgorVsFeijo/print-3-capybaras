@@ -25,8 +25,8 @@
     <div class="row text-start">
             <b><a href="../turismo/index.php"> Home</a> <i class="bi bi-arrow-right"></i> <a href="../turismo/pontos_turisticos.php"> Pontos turisticos</a>  <i class="bi bi-arrow-right"></i><a href="../turismo/pontos_turisticos_brasital.php"> Brasital</a> </b>
         </div>
-        <main>
-        <article>
+        <main role="main">
+        <article role="article">
             <h2>Brasital</h2>
             <figure>
                 <img src="../imgs/turismo/brasital_unica_desktop.webp" alt="Paisagem de cima do ponto turistico Brasital, ao meio algumas construções como casas, torres e em toda volta muita floresta.">
@@ -36,9 +36,9 @@
                 <p class="col-lg-6 col-md-6 col-sm-6 text-start">A Brasital foi uma indústria têxtil construída em 1890 pelo industrial italiano Enrico Dell´Acqua, uma das primeiras do estado de São Paulo, sendo um dos prédios históricos mais importantes na região onde está localizada.</p>
             </div>
         </article>
-        <section>
+        <section role="region" aria-labelledby="section-heading">
             <div class="row justify-content-start">
-                <h3 class="text-start">Serviços:</h3>
+                <h3 class="text-start" id="section-heading">Serviços:</h3>
             </div>
 
             <div class="text-start">
