@@ -14,4 +14,5 @@ $pasta_raiz = str_replace($pastas_servidor, "", $end_completo_raiz );
     >
 <link rel="stylesheet" href="/<?=$pasta_raiz; ?>/style/style.css" >
 <link rel="stylesheet" href="/<?=$pasta_raiz; ?>/style/nav.css" >
+<link rel="stylesheet" href="/<?=$pasta_raiz; ?>/style/cidade.css" >
 

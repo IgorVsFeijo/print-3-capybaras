@@ -26,7 +26,7 @@
             <div class="poster">
 
                 <div>
-                    <hgroup>
+                    <hgroup class="titulo-cidade">
                         <h1 class="h1-cidade">A CIDADE</h1>
                         <p class="h3">de São Roque</p>
                     </hgroup>

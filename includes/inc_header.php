@@ -67,9 +67,6 @@
                 <a class="nav-link" id="tab-governo" role="tab" aria-controls="nav-governo" aria-selected="false" href="/<?= $pasta_raiz; ?>/governo/">GOVERNO</a>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link" id="tab-empresa" role="tab" aria-controls="nav-empresa" aria-selected="false" href="/<?= $pasta_raiz; ?>/empresa/">EMPRESA</a>
-            </li>
-            <li class="nav-item" role="presentation">
                 <a class="nav-link" id="tab-cultura" role="tab" aria-controls="nav-cultura" aria-selected="false" href="/<?= $pasta_raiz; ?>/cultura/">CULTURA</a>
             </li>
             <li class="nav-item" role="presentation">
@@ -112,17 +109,6 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/governo/secretarias.php">Secretarias</a>
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/governo/legislacao.php">Legislação</a>
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/governo/legislativo.php">Poder Legislativo</a>
-                </div>
-            </div>
-        </nav>
-
-        <nav id="nav-empresa" role="tabpanel" aria-labelledby="tab-empresa" class="navbar tab-pane fade  navbar-expand-md">
-            <div class="container-lg">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="/<?= $pasta_raiz; ?>/empresa/iptu.php">IPTU</a>
-                    <a class="nav-link" href="/<?= $pasta_raiz; ?>/empresa/diario_oficial.php">Diário Oficial</a>
-                    <a class="nav-link" href="/<?= $pasta_raiz; ?>/empresa/cadastro.php">Cadastro de Pessoa Jurídica</a>
-                    <a class="nav-link" href="/<?= $pasta_raiz; ?>/empresa/aprovacao.php">Aprovação de Projetos</a>
                 </div>
             </div>
         </nav>
