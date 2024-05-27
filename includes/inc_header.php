@@ -42,9 +42,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/<?= $pasta_raiz ?>/privacidade.php">Privacidade</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/<?= $pasta_raiz ?>/acessibilidade.php">Acessibilidade</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -98,6 +95,7 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidadao/servicos.php">Serviços</a>
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidadao/transporte.php">Trânsito e Transporte</a>
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidadao/concursos.php">Concursos</a>
+                    <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidadao/cadastro.php">Cadastro Empresarial</a>
                 </div>
             </div>
         </nav>

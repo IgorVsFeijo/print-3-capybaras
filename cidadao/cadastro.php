@@ -23,20 +23,17 @@
   <!-- Fim Header -->
   <div class="container pages-empresas">
     <div class="row text-start" role="navigation" aria-label="Breadcrumb">
-        <b><a href="../empresa/home.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../empresa/cadastro.php" aria-current="page">Cadastro de Pessoa Jurídica</a></b>
+        <b><a href="index.php">Home</a> <i class="bi bi-arrow-right"></i> <a href="../cidadao/index.php">Cidadão</a> <i class="bi bi-arrow-right"></i> <a href="../cidadao/cadastro.php" aria-current="page">Cadastro de Pessoa Jurídica</a></b>
     </div>
     <h2 class="text-center" aria-level="1">Informe seus dados para cadastro</h2>
     <form class="col-12 cadastrojuridico" aria-labelledby="tituloForm">
         <div class="row">
-            <div class="my-3 col-md-4 col-sm-12">
+            <div class="my-3 col-md-6 col-sm-12">
                 <label for="inscricao" class="form-label">Número de Inscrição:</label>
                 <input id="inscricao" class="form-control" type="text" name="inscricao" aria-required="true" aria-describedby="inscricao-desc">
                 <span id="inscricao-desc" class="visually-hidden">Informe o número de inscrição.</span>
             </div>
-            <div class="my-3 col-md-4 col-sm-12">
-                <h4 id="tituloForm" aria-level="2">COMPROVANTE DE INSCRIÇÃO E SITUAÇÃO CADASTRAL</h4>
-            </div>
-            <div class="my-3 col-md-4 col-sm-12">
+            <div class="my-3 col-md-6 col-sm-12">
                 <label for="data" class="form-label">Data de Abertura:</label>
                 <input id="data" class="form-control" type="date" name="data">
             </div>
