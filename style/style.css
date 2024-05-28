@@ -114,9 +114,13 @@ header > div {
   min-height: 580px;
 }
 
+#secoes-portais a > section, #secoes-portais section.prefeitura{
+  border: 5px solid var(--branco);
+}
+
 #secoes-portais a:hover section {
   border: 5px solid var(--verde-agua);
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 #secoes-portais a:hover h2 {
@@ -168,6 +172,8 @@ div.cultura-e-turismo {
   height: 100%;
 }
 
+#home-principal
+
 #home-principal .veja-mais {
   margin-top: 50px;
 }
@@ -198,6 +204,10 @@ div.cultura-e-turismo > * {
   position: absolute;
   width: 100%;
   z-index: -1;
+}
+
+#secoes-portais .cultura-e-turismo{
+  border: none;
 }
 
 picture.img-home-princ {

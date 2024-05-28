@@ -24,7 +24,7 @@
     <!-- Inicio Main -->
 
     <main id="home-principal" class="container-lg p-3">
-      <article id="secoes-portais" class="row row-cols-2 gy-3">
+      <article id="secoes-portais" class="row row-cols-2 gx-1 gy-3">
         <!--Inicio article das secoes portais-->
 
         <h1 class="d-none">Áreas do Portal São Roque</h1>
@@ -68,7 +68,7 @@
           </section>
         </a>
 
-        <div class="cultura-e-turismo row mx-0 gy-3">
+        <div class="cultura-e-turismo row mx-0 px-0 gy-3">
           <a href="cultura/index.php">
             <section class="cultura position-relative">
               <!--Inicio secao cultura-->
