@@ -15,10 +15,10 @@
             <div class="desenvolvido-por">
                 <p>Desenvolvido pelas Carnívoras Capivaras da Justiça</p>
                 <div>
-                    <a href="https://www.facebook.com/prefeituradesaoroque/?locale=pt_BR" target="_blank">
+                    <a href="https://www.facebook.com/prefeituradesaoroque/?locale=pt_BR" aria-label="Página Facebook do Município" target="_blank">
                         <i class="bi bi-facebook btn"></i>
                     </a>
-                    <a href="https://www.instagram.com/prefeituradesaoroque/" target="_blank">
+                    <a href="https://www.instagram.com/prefeituradesaoroque/" aria-label="Página Instagram do Município" target="_blank">
                         <i class="bi bi-instagram btn"></i>
                     </a>
                 </div>

@@ -133,11 +133,12 @@
           <li><a href="perguntas.php">Perguntas Frequentes</a></li>
           <li><a href="noticias.php">Notícias</a></li>
           <li><a href="contato.php">Contato</a></li>
-          <?php 
-          include 'includes/inc_referencias.php';
-          ?>
         </ul>
       </section>
+
+      <?php 
+          include 'includes/inc_referencias.php';
+          ?>
       
       
 

@@ -1456,8 +1456,12 @@ select {
   text-transform: uppercase;
   text-align: center;
   background-color: var(--amarelo);
-  color: white;
+  color: black;
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 1em;
+}
+
+.referencias_link:hover{
+  color: var(--branco);
 }
