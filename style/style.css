@@ -4,6 +4,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans:wght@400;500;700&display=swap");
 
+:root{
+  --verde-agua: #009e9e;
+  --branco: #fff;
+  --azul-marinho: #1d2f6f;
+  --amarelo: #ff9f1c;
+  --verde-escuro: #2d4739;
+}
+
 /* Estilos Universais */
 html{
  box-sizing: initial;
@@ -22,7 +30,7 @@ footer .desenvolvido-por i{
 }
 
 header a:hover .logo * {
-  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 /* Estilos Universais */
@@ -107,12 +115,12 @@ header > div {
 }
 
 #secoes-portais a:hover section {
-  border: 5px solid #00a6a6;
+  border: 5px solid var(--verde-agua);
   border-radius: 10px;
 }
 
 #secoes-portais a:hover h2 {
-  color: #00a6a6;
+  color: var(--verde-agua);
 }
 
 #secoes-portais > *:last-child,
@@ -134,7 +142,7 @@ header > div {
 #secoes-portais h2 {
   text-transform: uppercase;
   margin: 5px 0px;
-  color: #10246b;
+  color: var(--azul-marinho);
   font-size: 1.75em;
 }
 
@@ -178,7 +186,7 @@ div.cultura-e-turismo > * {
 }
 
 #secoes-portais section div {
-  background-color: #fff;
+  background-color: var(--branco);
   padding: 1em;
 }
 
@@ -263,7 +271,7 @@ picture.img-home-princ {
 }
 
 .paginas-area-cidade .titulo-sessao {
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   position: relative;
   max-width: none;
@@ -307,12 +315,12 @@ picture.img-home-princ {
 }
 
 .titulo-sessao.vazio {
-  color: #1d2f6f;
+  color: var(--azul-marinho);
 }
 
 .titulo-verde-agua, .titulo-retangulo-cinza{
   width: 100%;
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   color: white;
   line-height: 2em;
   display: flex;
@@ -394,7 +402,7 @@ picture.img-home-princ {
 }
 
 .legenda-bonitinha-cidade{
-  background-color: #009e9e;
+  background-color: var(--verde-agua);
   color: white;
   padding: 2px 10px;
 }
@@ -424,42 +432,11 @@ main#dados-gerais li {
   text-align: left;
 }
 
-/* Acessibilidade */
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 2;
-}
-
-#page-acessibilidade svg {
-  padding: 5px;
-  fill: white;
-}
-
-#page-acessibilidade i {
-  font-size: 3em;
-}
-
-#page-acessibilidade .icon {
-  font-size: 4em;
-  color: white;
-}
-
-#page-acessibilidade button{
-  background-color: #10246b;
-}
-
-#page-acessibilidade span.m-auto {
-  display: block;
-}
-
-/* Pages Empresas */
-
-/* Fim Pages Empresas */
 
 /* Footer */
 
 footer {
-  background-color: #10246b;
+  background-color: var(--azul-marinho);
   text-align: center;
   color: white;
 }
@@ -512,24 +489,24 @@ footer i.btn {
 
 .quemsomos article a {
   text-decoration: none;
-  color: #ff9a0d;
+  color: var(--amarelo);
   padding: 5px;
 }
 
 .quemsomos article a:hover {
-  color: #ff9a0d;
-  background-color: #10246b;
+  color: var(--amarelo);
+  background-color: var(--azul-marinho);
 }
 
 .quemsomos article h2 {
   text-decoration: none;
-  color: #00a6a6;
+  color: var(--verde-agua);
   text-transform: uppercase;
 }
 
 .quemsomos article b {
   text-decoration: none;
-  color: #10246b;
+  color: var(--azul-marinho);
 }
 
 .quemsomos article figure {
@@ -539,7 +516,7 @@ footer i.btn {
 .quemsomos article img {
   border-radius: 50%;
   border-top-left-radius: 30px;
-  border: solid 10px #00a6a6;
+  border: solid 10px var(--verde-agua);
 }
 
 .quemsomos_conteudo {
@@ -561,7 +538,7 @@ footer i.btn {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   padding: 20px;
   border-radius: 15px;
   text-decoration: none;
@@ -569,7 +546,7 @@ footer i.btn {
   border: white 10px solid;
 }
 .contato_botoes a:hover {
-  background-color: #10246b;
+  background-color: var(--azul-marinho);
 }
 
 .contato_botoes p {
@@ -581,7 +558,7 @@ footer i.btn {
 }
 
 .contato_form {
-  background-color: #038686;
+  background-color: var(--verde-agua);
   padding: 40px;
   border-radius: 10px;
 }
@@ -615,11 +592,11 @@ footer i.btn {
 
 .privacidade section {
   padding: 20px;
-  border: 5px solid #00a6a6;
+  border: 5px solid var(--verde-agua);
 }
 
 .privacidade_politica {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   border-radius: 10px;
 }
 
@@ -646,13 +623,13 @@ h2 {
 /*Início Home CIDADAO */
 .btn-vermais, .btn-veja-mais{
   color: white;
-  background-color: #ff9f1c;
+  background-color: var(--amarelo);
   text-transform: uppercase;
   border: none;
 }
 
 .btn-vermais:hover, .btn-veja-mais:hover {
-  background-color: #ff9a0d;
+  background-color: var(--amarelo);
   color: white;
   color: rgb(223, 223, 223);
 }
@@ -691,7 +668,7 @@ h2 {
 }
 
 .cidadao_botoes a {
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   text-decoration: none;
   padding: 20px;
@@ -700,7 +677,7 @@ h2 {
 }
 
 .cidadao_botoes a:hover {
-  background-color: #10246b;
+  background-color: var(--azul-marinho);
 }
 
 .cidadao_botoes i {
@@ -708,7 +685,7 @@ h2 {
 }
 
 .cidadao_card {
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   border-radius: 10px;
   padding: 25px;
@@ -738,7 +715,7 @@ h2 {
 
 .cidadao_form input {
   margin: 10px 0px;
-  background-color: #19cccc;
+  background-color: var(--verde-agua);
 }
 
 .cidadao_form input::placeholder {
@@ -746,12 +723,12 @@ h2 {
 }
 
 .cidadao_form button {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   color: white;
 }
 
 .cidadao_form button:hover {
-  background-color: #038686;
+  background-color: var(--verde-agua);
   color: white;
 }
 
@@ -763,16 +740,16 @@ h2 {
 }
 
 .cidadao_calendario caption {
-  background-color: #ff9a0d;
+  background-color: var(--amarelo);
   caption-side: top;
 }
 
 .cidadao_calendario th {
-  color: #ff9a0d;
+  color: var(--amarelo);
 }
 
 .cidadao_mes th {
-  color: #10246b;
+  color: var(--azul-marinho);
 }
 /*Fim Home CIDADAO */
 
@@ -795,12 +772,12 @@ h2 {
 
 .btn-onibus {
   color: white;
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   border: white 2px solid;
 }
 
 .btn-onibus:hover {
-  background-color: #009e9e;
+  background-color: var(--verde-agua);
   color: white;
 }
 /*Fim Transporte CIDADAO */
@@ -811,7 +788,7 @@ h2 {
 }
 
 .cidadao_concursos ul li {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   margin: 10px 0px 0px 0px;
   padding: 15px;
   list-style: none;
@@ -827,7 +804,7 @@ h2 {
 
 .cidadao_dicas i {
   font-size: 5em;
-  color: #10246b;
+  color: var(--azul-marinho);
 }
 
 /*Fim Concurso CIDADAO */
@@ -846,7 +823,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   text-decoration: none;
   padding: 10px 10px;
@@ -856,7 +833,7 @@ h2 {
 }
 
 .saude .cidadao_card {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
 }
 
 .cidadao_cartilha {
@@ -872,7 +849,7 @@ h2 {
 .cidadao_cartilha tr {
   border: white solid 1px;
   border-radius: 10px;
-  background-color: #10246b;
+  background-color: var(--azul-marinho);
   color: white;
   padding: 10px;
 }
@@ -886,7 +863,7 @@ h2 {
 
 .cidadao_postagem {
   margin: 20px 5px;
-  background-color: rgb(240, 240, 240);
+  background-color: var(--branco);
   padding: 5px 10px;
 }
 
@@ -895,7 +872,7 @@ h2 {
 }
 
 .cidadao_servicos_escolar a {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   text-decoration: none;
   color: white;
   margin: 5px 0px;
@@ -906,7 +883,7 @@ h2 {
 }
 
 .cidadao_servicos_escolar a:hover {
-  background-color: #009e9e;
+  background-color: var(--verde-agua);
 }
 
 /* Fim Serviços CIDADAO */
@@ -922,14 +899,14 @@ h2 {
 .noticias_cultura {
   box-shadow: 3px 4px 4px 3px rgba(85, 85, 85, 0.5);
   padding: 20px;
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   border-radius: 10px;
 }
 .notícia_mobile {
   box-shadow: 0px 3px 3px 0px rgba(85, 85, 85, 0.2);
   padding: 0.5em 0.4em 0em 0.4em;
-  background-color: #00a6a659;
+  background-color: var(--verde-agua)59;
   border-radius: 10px;
 }
 .notícia_mobile p {
@@ -937,7 +914,7 @@ h2 {
   font-weight: bold;
 }
 .conhecamais {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   border-radius: 10px;
   margin-top: 1em;
   box-shadow: 0px 2px 4px 3px rgba(85, 85, 85, 0.5);
@@ -948,7 +925,7 @@ h2 {
 .monumento_cultural {
   border: 3px solid;
   border-radius: 10px;
-  background-color: #ff9f1c;
+  background-color: var(--amarelo);
   box-shadow: 0px 2px 1px 3px rgba(85, 85, 85, 0.5);
   padding-top: 1em;
   margin-bottom: 2em;
@@ -973,7 +950,7 @@ h2 {
 }
 .festasagosto,
 .exposr {
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   padding: 0.5em 0.5em;
   border-radius: 10px;
@@ -995,7 +972,7 @@ h2 {
 
 .btn-vermais {
   color: white;
-  background-color: #ff9f1c;
+  background-color: var(--amarelo);
   text-transform: uppercase;
 }
 .img_diario {
@@ -1046,8 +1023,8 @@ main.empresa {
   width: 100%;
 }
 .link_home {
-  background-color: #00a6a6;
-  color: #ffffff;
+  background-color: var(--verde-agua);
+  color: var(--branco)fff;
   font-weight: bold;
   border-radius: 2em;
   padding: 0.5em 1em;
@@ -1059,7 +1036,7 @@ main.empresa {
 }
 .botao_empresa {
   margin-left: 60em;
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   box-shadow: 2px 2px rgba(78, 78, 78, 0.2);
 }
@@ -1073,8 +1050,8 @@ main.empresa {
   margin: 2em -1em;
 }
 .head_iptu {
-  background-color: #1d2f6f;
-  color: #ffffff;
+  background-color: var(--azul-marinho);
+  color: var(--branco)fff;
 }
 .edicao {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.49);
@@ -1085,7 +1062,7 @@ main.empresa {
   margin-top: 2em;
 }
 .botoes_diario {
-  background-color: #1d2f6f;
+  background-color: var(--azul-marinho);
   color: white;
   padding: 0.5em 3em 0.5em 3em;
 }
@@ -1112,7 +1089,7 @@ select {
 /* INICIO CSS AREA TURISMO */
 
 .not_back {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
   padding: 1em;
   margin-top: 1em;
 }
@@ -1144,7 +1121,7 @@ select {
 }
 
 .tur_back {
-  background-color: #00a6a6;
+  background-color: var(--verde-agua);
 }
 
 .tur_i_h2 {
@@ -1155,15 +1132,15 @@ select {
 
 .tur_btn-vermais {
   color: black;
-  background-color: #ff9f1c;
+  background-color: var(--amarelo);
   border: 10px solid white;
   padding: 1em;
 }
 
 .tur_btn-vermais:hover {
-  background-color: #ff9a0d;
+  background-color: var(--amarelo);
   color: white;
-  border: 10px solid #ff9a0d;
+  border: 10px solid var(--amarelo);
 }
 
 .tur_btn_pad {
@@ -1171,7 +1148,7 @@ select {
 }
 
 .tur_cor_servicos {
-  color: #ff9f1c;
+  color: var(--amarelo);
 }
 /* FIM CSS PONTOS TURISTICOS */
 
@@ -1231,12 +1208,12 @@ select {
 
 .tur_btn_vermais {
   color: black;
-  background-color: #ff9f1c;
+  background-color: var(--amarelo);
   border: none;
 }
 
 .tur_btn_vermais:hover {
-  background-color: #ff9a0d;
+  background-color: var(--amarelo);
   color: white;
   -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
@@ -1467,7 +1444,7 @@ select {
 .referencias_link{
   text-transform: uppercase;
   text-align: center;
-  background-color: #ff9a0d;
+  background-color: var(--amarelo);
   color: white;
   border-radius: 10px;
   padding: 5px;

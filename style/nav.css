@@ -1,6 +1,6 @@
 .barra-azul{
     height: 25px;
-    background-color: #1d2f6f;
+    background-color: var(--azul-marinho);
 }
 
 .navbar{
@@ -19,7 +19,7 @@
 
 .navbarSecundaria{
     width: 100%;
-    background-color: #1d2f6f;
+    background-color: var(--azul-marinho);
 }
 
 .navbarSecundaria .nav-item{
@@ -42,15 +42,15 @@
 }
 
 .navbarSecundaria .nav-pills .nav-link.active{
-    background-color: #00a6a6;
+    background-color: var(--verde-agua);
 }
 
 .navbarSecundaria .nav-pills .nav-link:hover{
-    background-color: #00a6a6;
+    background-color: var(--verde-agua);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link:hover{
-    color: #1d2f6f;
+    color: var(--azul-marinho);
 }
 
 .navbar-nav .nav-link.active{
@@ -64,7 +64,7 @@
 }
 
 .navbarCategoria{
-    background-color: #00a6a6;
+    background-color: var(--verde-agua);
 }
 
 .navbarCategoria .navbar-nav{
