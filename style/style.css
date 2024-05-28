@@ -116,6 +116,7 @@ header > div {
 
 #secoes-portais a > section, #secoes-portais section.prefeitura{
   border: 5px solid var(--branco);
+  transition: all 0.2s ease-in-out;
 }
 
 #secoes-portais a:hover section {
