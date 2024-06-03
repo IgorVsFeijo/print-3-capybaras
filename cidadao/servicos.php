@@ -164,8 +164,13 @@
                         
                         <form class="row cidadao_form" action="post">
                             <label class="text-cented">Para receber notícias de vagas</label>
-                            <input class="form-control" type="text" placeholder="Nome">
-                            <input class="form-control" type="email" placeholder="Email">
+                            <label for="nome">
+                                <input class="form-control" type="text" placeholder="Nome" id="nome" title="insira seu nome" accesskey="n">
+                            </label>
+                            <label for="email">
+                                <input class="form-control" type="email" placeholder="Email" id="email" title="insira seu email" accesskey="e">
+                            </label>
+                            
                             <button class="btn btn-vermais">Enviar</button>
                         </form>
                     </section>

@@ -35,13 +35,24 @@
           </section>
 
           <section class="col-lg-6 col-md-12 col-sm-12 contato_form" role="region" aria-labelledby="section-heading">
+
               <form class="row" action="post">
-                  <label class="text-center">Contate-nos</label>
-                  <input class="form-control" type="text" placeholder="Nome">
-                  <input class="form-control" type="email" placeholder="Email">
-                  <textarea placeholder="Escreva sua mensagem..." class="form-control"></textarea>
+                  <h1 class="text-center" id="section-heading">Contate-nos</h1>
+                  <label for="nome">
+                      <input class="form-control" type="text" placeholder="Nome" id="nome" accesskey="n">
+                  </label>
+                  
+                  <label for="email">
+                      <input class="form-control" type="email" placeholder="Email" id="email" accesskey="e">
+                  </label>
+                  
+                  <label for="mensagem">
+                    <textarea placeholder="Escreva sua mensagem..." class="form-control" id="mensagem" accesskey="m"></textarea>
+                  </label>
+                  
                   <button class="btn btn-vermais">Enviar</button>
               </form>
+
           </section>
           <?php 
           include 'includes/inc_referencias.php';
