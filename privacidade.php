@@ -22,9 +22,9 @@
     <!-- Fim Header -->
 
     <div class="container">
-      <main class="row privacidade">
+      <main class="row privacidade" role="main">
         <h1>Privacidade</h1>
-        <article>
+        <article role="article">
           <h2>Termos de uso</h2>
           <p>
           O uso do portal * é validado pela aceitação deste Acordo de privacidade. Este reserva-se o direito de ser alterado sem aviso prévio pela equipe do portal da Prefeitura Municipal de São Roque - SP, poor esse motivo recomendamos a verificação regular da política de privacidade para verificar possíveis atualizações.
@@ -32,10 +32,10 @@
           </p>
         </article>
 
-        <article class="privacidade_politica">
+        <article class="privacidade_politica" role="article">
           <h2 class="text-center">Política de Privacidade</h2>
           <div class="row">
-            <section class="col-lg-6">
+            <section class="col-lg-6" role="region">
               <h3>Coleta de dados</h3>
               <ol>
                 <li>
@@ -55,7 +55,7 @@
               </ol>
             </section>
 
-            <section class="col-lg-6">
+            <section class="col-lg-6" role="region">
               <h3>Uso de dados</h3>
                 <ol>
                   <li>
@@ -80,14 +80,14 @@
                 </ol>
             </section>
 
-            <section class="col-lg-6">
+            <section class="col-lg-6" role="region">
               <h3>Armazenamento de dados</h3>
               <p>
               Os dados do conteúdo do site e os dados do usuário registrados no sistemas são armazenados em servidores externos com Data Centers localizados na cidade de São Paulo com monitoramento a todo momento por câmeras com detecção de movimento, gravação e armazenamento. O acesso é feito por dupla autenticação: biométrica e cartão magnético. Para garantir a constante disponibilidade das informações, os Data Centers são abastecidos por uma Subestação própria redundante Tri-bus, que conta com três linhas de energia e um sistema de geração a diesel capaz de operar autonomamente por 48 horas sem necessidade de reabastecimento.
               </p>
             </section>
 
-            <section class="col-lg-6">
+            <section class="col-lg-6" role="region">
               <h3>Política de Cookies</h3>
               <ol>
                 <li>
@@ -111,7 +111,7 @@
               </ol>
             </section>
 
-            <section>
+            <section role="region">
               <h3>Disposições gerais</h3>
               <p>
               Essa Política de privacidade está submetida a alterações se necessário, por isso é aconselhável manter verificação regular deste documento tendo em vista as possíveis atualizações. Nos casos em que haja grandes alterações no sistema será solicitado novo consentimento para cada usuário na próxima vez que acessarem este portal. Para tirar dúvidas sobre esta política é possível entrar em contato com a Prefeitura Municipal por meio do telefone Telefone: (11) 4784-8500 ou via email ouvidoria@saoroque.sp.gov.br.

@@ -23,10 +23,10 @@
     <!-- Fim Header -->
 
     <div class="container ">
-        <main class="cidadao_transporte">
-            <article class="row gx-5 gy-5">
+        <main class="cidadao_transporte" role="main">
+            <article class="row gx-5 gy-5" role="article">
                 <h1 class="col-12">Trânsito</h1>
-                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia">
+                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia" role="region">
                     <div class="row sombra cidadao_noticias_p">
                         <figure class="col-lg-12 col-md-4 text-center"><img src="../imgs/cidadao/cidadao_caminhao_.webp" alt="a traseira de um caminhão com uma pessoa saindo dele, o caminhão está com uma roda dianteira dentor de um buraco; há um carro branco ao lado"></figure>
                         <div class="col-lg-12 col-md-8">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia">
+                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia" role="region">
                     <div class="row sombra cidadao_noticias_p">
                         <figure class="col-lg-12 col-md-4 text-center"><img src="../imgs/cidadao/cidadao_castelo_.webp" alt="um ponto de pedágo com dois caminhões passando"></figure>
                         <div class="col-lg-12 col-md-8">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia">
+                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia" role="region">
                     <div class="row sombra cidadao_noticias_p">
                         <figure class="col-lg-12 col-md-4 text-center"><img src="../imgs/cidadao/cidadao_lint_.webp" alt="um print do site do app de transporte Liint"></figure>
                         <div class="col-lg-12 col-md-8">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia">
+                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia" role="region">
                     <div class="row sombra cidadao_noticias_p">
                         <figure class="col-lg-12 col-md-4 text-center"><img src="../imgs/cidadao/cidadao_carros_.webp" alt="um carro antgo abandonado em um arua com outros carros"></figure>
                         <div class="col-lg-12 col-md-8">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia">
+                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia" role="region">
                     <div class="row sombra cidadao_noticias_p">
                         <figure class="col-lg-12 col-md-4 text-center"><img src="../imgs/cidadao/cidadao_obras_.webp" alt="dois carros vermelhos vistos lateralmente passando em uma rodovia"></figure>
                         <div class="col-lg-12 col-md-8">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia">
+                <section class="col-lg-4 col-md-12 col-sm-12 cidadao_noticia" role="region">
                     <div class="row sombra cidadao_noticias_p">
                         <figure class="col-lg-12 col-md-4 text-center"><img src="../imgs/cidadao/cidadao_linha_.jpg" alt="a traseira de um ônibus azul"></figure>
                         <div class="col-lg-12 col-md-8">
@@ -88,7 +88,7 @@
                 </section>
             </article>
 
-            <section class="row">
+            <section class="row" role="region">
                 <div class="col-lg-8 col-md-6">
                     <h2>Departamento de trânsito</h2>
                     <p>O departamento de trânsito tem como objetivo a promoção de educação no trânsito, planejar e pôr em prática ações que visem a conscientização dos motoristas e pedestres, além de fiscalizar e autuar multas. Conta com unidades de atendimento em todos os municípios do estado.</p>
@@ -109,7 +109,7 @@
                 </aside>
             </section>
 
-            <section>
+            <section role="region">
                 <h1>Horários de ônibus</h1>
                 <div class="row  justify-content-around">
                     <a class="btn btn-onibus col-lg-3 col-md-4 col-sm-12" data-bs-toggle="collapse" href="#Paisagem" role="button" aria-expanded="false" aria-controls="Paisagem">
@@ -139,13 +139,13 @@
                 </div>
                 <div class="collapse" id="Paisagem">
                     <div class="card card-body">
-                    <table class="table">
+                    <table class="table" role="table">
                                     <tr>
                                         <th colspan="2">Segunda a sexta</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Rodoviária</td>
                                                 </tr>
@@ -224,7 +224,7 @@
                                             </table>
                                         </td>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Paisagem Colonial</td>
                                                 </tr>
@@ -321,13 +321,13 @@
                 </div>
                 <div class="collapse" id="Santo">
                     <div class="card card-body">
-                    <table class="table">
+                    <table class="table" role="table">
                                     <tr>
                                         <th colspan="2">Segunda a sexta</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Rodoviária</td>
                                                 </tr>
@@ -406,7 +406,7 @@
                                             </table>
                                         </td>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Santo Antônio</td>
                                                 </tr>
@@ -502,13 +502,13 @@
                 </div>
                 <div class="collapse" id="Canguera">
                     <div class="card card-body">
-                    <table class="table">
+                    <table class="table" role="table">
                                     <tr>
                                         <th colspan="2">Segunda a sexta</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Rodoviária</td>
                                                 </tr>
@@ -587,7 +587,7 @@
                                             </table>
                                         </td>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Canguera</td>
                                                 </tr>
@@ -683,13 +683,13 @@
                 </div>
                 <div class="collapse" id="Mailasqui">
                     <div class="card card-body">
-                        <table class="table">
+                        <table class="table" role="table">
                                         <tr>
                                             <th colspan="2">Segunda a sexta</th>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <table class="table">
+                                                <table class="table" role="table">
                                                     <tr>
                                                         <td colspan="2">Saída Rodoviária</td>
                                                     </tr>
@@ -768,7 +768,7 @@
                                                 </table>
                                             </td>
                                             <td>
-                                                <table class="table">
+                                                <table class="table" role="table">
                                                     <tr>
                                                         <td colspan="2">Saída Mailasqui</td>
                                                     </tr>
@@ -864,13 +864,13 @@
                 </div>
                 <div class="collapse" id="Guacu">
                     <div class="card card-body">
-                        <table class="table">
+                        <table class="table" role="table">
                                         <tr>
                                             <th colspan="2">Segunda a sexta</th>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <table class="table">
+                                                <table class="table" role="table">
                                                     <tr>
                                                         <td colspan="2">Saída Rodoviária</td>
                                                     </tr>
@@ -949,7 +949,7 @@
                                                 </table>
                                             </td>
                                             <td>
-                                                <table class="table">
+                                                <table class="table" role="table">
                                                     <tr>
                                                         <td colspan="2">Saída Guaçu</td>
                                                     </tr>
@@ -1045,13 +1045,13 @@
                 </div>
                 <div class="collapse" id="Taboao">
                     <div class="card card-body">
-                        <table class="table">
+                        <table class="table" role="table">
                                         <tr>
                                             <th colspan="2">Segunda a sexta</th>
                                         </tr>
                                         <tr>
                                             <td>
-                                                <table class="table">
+                                                <table class="table" role="table">
                                                     <tr>
                                                         <td colspan="2">Saída Rodoviária</td>
                                                     </tr>
@@ -1130,7 +1130,7 @@
                                                 </table>
                                             </td>
                                             <td>
-                                                <table class="table">
+                                                <table class="table" role="table">
                                                     <tr>
                                                         <td colspan="2">Saída Taboão</td>
                                                     </tr>
@@ -1226,13 +1226,13 @@
                 </div>
                 <div class="collapse" id="Suica">
                     <div class="card card-body">
-                    <table class="table">
+                    <table class="table" role="table">
                                     <tr>
                                         <th colspan="2">Segunda a sexta</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Rodoviária</td>
                                                 </tr>
@@ -1311,7 +1311,7 @@
                                             </table>
                                         </td>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Suíça</td>
                                                 </tr>
@@ -1407,13 +1407,13 @@
                 </div>
                 <div class="collapse" id="Sao">
                     <div class="card card-body">
-                    <table class="table">
+                    <table class="table" role="table">
                                     <tr>
                                         <th colspan="2">Segunda a sexta</th>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída Rodoviária</td>
                                                 </tr>
@@ -1492,7 +1492,7 @@
                                             </table>
                                         </td>
                                         <td>
-                                            <table class="table">
+                                            <table class="table" role="table">
                                                 <tr>
                                                     <td colspan="2">Saída São João Novo</td>
                                                 </tr>

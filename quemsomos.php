@@ -24,7 +24,7 @@
     <!-- Fim Header -->
 
     <div class="container">
-      <main class="row quemsomos">
+      <main class="row quemsomos" role="main">
         <h1 class="col-12 text-center">Sobre a equipe</h1>
         <p class="col-lg-6">
           Somos um grupo de amigos que se complementa e busca sempre fazer o melhor que pudermos. Nos conhecemos na Fatec São Roque e esse site é o resultado de um trabalho de três meses voltado às matérias Práticas de Projeto de Sítio para Internet e Prática de Design. 
@@ -33,7 +33,7 @@
           O tema do site é o portal de uma cidade, sendo assim escolhemos a cidade em que nossa faculdade é sediada, São Roque. Agradecemos por terem chego até aqui e esperamos que tenham desfrutado do nosso site. Conheça a dedicada equipe por trás deste projeto.
         </p>
 
-        <article>
+        <article role="article">
           <div class="row align-items-center sombra">
             <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Emanuele.jpeg" alt="Foto da Emanuele, a Gerente do projeto e responsável pela área de Cidadão">
@@ -50,7 +50,7 @@
           </div>
         </article>
 
-        <article>
+        <article role="article">
           <div class="row align-items-center sombra">
             <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Henrique.jpeg" alt="Foto do Henrique, o Web Writer do site e responsável pela área de Cultura">
@@ -67,7 +67,7 @@
           </div>
         </article>
 
-        <article>
+        <article role="article">
           <div class="row align-items-center sombra">
             <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Igor.jpeg" alt="Foto do Igor, Coder do site e responsável pela área de Cidade">
@@ -84,7 +84,7 @@
           </div>
         </article>
 
-        <article>
+        <article role="article">
               <div class="row align-items-center sombra">
                 <div class="col-lg-4 col-md-4 text-center">
                   <img src="imgs/Joao.jpg" alt="Foto do João, o Sub-Gerente do projeto e responsável pela área de Governo">
@@ -101,7 +101,7 @@
               </div>
         </article>
         
-        <article>
+        <article role="article">
           <div class="row align-items-center sombra">
             <div class="col-lg-4 col-md-4 text-center">
               <img src="imgs/Pietro.jpeg" alt="Foto do Pietro, o Designer do site e responsável pela área de Turismo">
