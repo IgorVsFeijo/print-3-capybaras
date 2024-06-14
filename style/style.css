@@ -114,12 +114,12 @@ header > div {
   min-height: 580px;
 }
 
-#secoes-portais a > section, #secoes-portais section.prefeitura{
+#secoes-portais section a, #secoes-portais section.prefeitura{
   border: 5px solid var(--branco);
   transition: all 0.2s ease-in-out;
 }
 
-#secoes-portais a:hover section {
+#secoes-portais a:hover{
   border: 5px solid var(--verde-agua);
   border-radius: 2px;
 }
@@ -160,7 +160,11 @@ header > div {
   text-decoration: none;
 }
 
-#secoes-portais > * > section,
+#secoes-portais > * > section{
+  height: 100%;
+}
+
+#secoes-portais section a, #secoes-portais .prefeitura,
 div.cultura-e-turismo section {
   display: flex;
   flex-direction: column;
@@ -168,7 +172,7 @@ div.cultura-e-turismo section {
   flex-grow: 1;
 }
 
-#secoes-portais > * > section,
+#secoes-portais section a, #secoes-portais .prefeitura,
 div.cultura-e-turismo {
   height: 100%;
 }
@@ -201,7 +205,12 @@ div.cultura-e-turismo > * {
   position: relative;
 }
 
-#secoes-portais .img-home-princ {
+#secoes-portais section a {
+  position: absolute;
+  height: 100%;
+}
+
+#secoes-portais .img-home-princ{
   position: absolute;
   width: 100%;
   z-index: -1;

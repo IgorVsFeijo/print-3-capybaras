@@ -12,7 +12,7 @@
                 <picture class="logo">
                     <source media="(min-width: 1200px)" srcset="/<?= $pasta_raiz; ?>/imgs/principal/logotipo.svg">
                     <source media="(min-width: 768px)" srcset="/<?= $pasta_raiz; ?>/imgs/principal/carnivorascap_nome.svg">
-                    <img src="/<?= $pasta_raiz; ?>/imgs/principal/logo.svg" alt="Logotipo da Carnivoras Capivaras da Justiça, apresentando uma capivara sorridente vestida com roupas da justiça. Ao fundo, duas coxas de carne desenhadas em azul. Uma faixa com a inscrição ‘Garra e Justiça’ se sobrepõe, ao lado do nome completo dA EQUIPE.">
+                    <img src="/<?= $pasta_raiz; ?>/imgs/principal/logo.svg" alt="Logotipo da Carnívoras Capivaras da Justiça, apresentando uma capivara sorridente vestida com roupas da justiça. Ao fundo, duas coxas de carne desenhadas em azul. Uma faixa com a inscrição ‘Garra e Justiça’ se sobrepõe, ao lado do nome completo da equipe.">
                 </picture>
             </a>
 
@@ -23,7 +23,7 @@
 
             <!-- Navegação principal acessível -->
             <div class="collapse navbar-collapse" id="navbarPrincipalComprimido">
-                <ul class="navbar-nav" role="navigation">
+                <ul class="navbar-nav" >
                     <li class="nav-item">
                         <a class="nav-link" href="/<?= $pasta_raiz ?>/noticias.php">Notícias</a>
                     </li>
@@ -76,7 +76,7 @@
     <!--Navbars Categorias -->
     <div class="tab-content navbarCategoria">
 
-        <nav id="nav-cidade" role="tabpanel" aria-labelledby="tab-cidade" class="navbar tab-pane fade  navbar-expand-md">
+        <div id="nav-cidade" role="tabpanel" aria-labelledby="tab-cidade" class="navbar tab-pane fade  navbar-expand-md" aria-label="Páginas da sessão cidade">
             <div class="container-lg">
                 <div class="navbar-nav">
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidade/historia.php">História</a>
@@ -86,9 +86,9 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidade/hino.php">Hino da Cidade</a>
                 </div>
             </div>
-        </nav>
+        </div>
 
-        <nav id="nav-cidadao" role="tabpanel" aria-labelledby="tab-cidadao" class="navbar tab-pane fade  navbar-expand-md">
+        <div id="nav-cidadao" role="tabpanel" aria-labelledby="tab-cidadao" class="navbar tab-pane fade  navbar-expand-md" aria-label="Páginas da sessão cidadão">
             <div class="container-lg">
                 <div class="navbar-nav">
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidadao/saude.php">Saúde</a>
@@ -98,9 +98,9 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cidadao/cadastro.php">Cadastro Empresarial</a>
                 </div>
             </div>
-        </nav>
+        </div>
 
-        <nav id="nav-governo" role="tabpanel" aria-labelledby="tab-governo" class="navbar tab-pane fade  navbar-expand-md">
+        <div id="nav-governo" role="tabpanel" aria-labelledby="tab-governo" class="navbar tab-pane fade  navbar-expand-md" aria-label="Páginas da sessão governo">
             <div class="container-lg">
                 <div class="navbar-nav">
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/governo/prefeitura.php">Prefeitura</a>
@@ -109,9 +109,9 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/governo/legislativo.php">Poder Legislativo</a>
                 </div>
             </div>
-        </nav>
+        </div>
 
-        <nav id="nav-cultura" role="tabpanel" aria-labelledby="tab-cultura" class="navbar tab-pane fade  navbar-expand-md">
+        <div id="nav-cultura" role="tabpanel" aria-labelledby="tab-cultura" class="navbar tab-pane fade  navbar-expand-md" aria-label="Páginas da sessão cultura">
             <div class="container-lg">
                 <div class="navbar-nav">
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cultura/culturaarte.php">Cultura e Arte</a>
@@ -120,9 +120,9 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/cultura/cadastro.php">Cadastro</a>
                 </div>
             </div>
-        </nav>
+        </div>
 
-        <nav id="nav-turismo" role="tabpanel" aria-labelledby="tab-turismo" class="navbar tab-pane fade  navbar-expand-md">
+        <div id="nav-turismo" role="tabpanel" aria-labelledby="tab-turismo" class="navbar tab-pane fade  navbar-expand-md" aria-label="Páginas da sessão turismo">
             <div class="container-lg">
                 <div class="navbar-nav">
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/turismo/hospedagem.php">Hospedagem</a>
@@ -132,7 +132,7 @@
                     <a class="nav-link" href="/<?= $pasta_raiz; ?>/turismo/galeria.php">Galeria</a>
                 </div>
             </div>
-        </nav>
+        </div>
     </div>
 
 </header>
