@@ -27,7 +27,7 @@
         </div>
         <main role="main">
         <article role="article">
-            <h2 class="text-start tur_gastro_h2">Adegas e Vinículas</h2>
+            <h2 class="text-start tur_gastro_h2">Adegas e Vinícolas</h2>
             <div class="row">
                 <section class="col-lg-3 col-md-3 col-sm-6 tur_shadow" role="region">
                     <h3 class="text-start tur_h3">Adega Terra do Vinho</h3>
