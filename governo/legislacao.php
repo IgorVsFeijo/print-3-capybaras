@@ -8,6 +8,7 @@
 
     <?php
         include '../includes/inc_head_links.php';
+        include '../includes/inc_sql.php';
       ?>
     <link rel="stylesheet" href="../style/style.css">
 
