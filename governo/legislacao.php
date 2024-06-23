@@ -23,43 +23,53 @@
     <!-- Fim Header -->
   <div class="container text-center">
 
-    <div class="row">
-        <section class="col-lg-12 col-md-12 col-sm-12">
-            <h1>LEGISLAÇÃO</h1>
-        </section>
-        <article class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../imgs/governo/leiorg.webp" alt="foto de uma tipografia dizendo Lei Orgânica do Município">
+  <?php
+        $sql = "SELECT l.CodigoProjeto, l.NomeProjeto, l.DescricaoProjeto, i.caminhoImagemGoverno, i.CategoriaImagemGoverno, i.descricaoImagemGoverno
+        FROM legislacao l INNER join ImagensGoverno i
+                    on l.CodigoProjeto = i.CodigoProjeto
+        WHERE l.CodigoProjeto <> 3";
+        $resultado = $conecta->query($sql);
 
-            <h2>Lei Orgânica do Município</h2>
+    echo "<div class='row'>";
+    echo '<section class="col-lg-12 col-md-12 col-sm-12">';
+    echo "<h1>LEGISLAÇÃO</h1>";
+    echo "</section>";
+    while($linha = $resultado->fetch_assoc()) {
+        echo '<article class="col-lg-6 col-md-6 col-sm-12">';
 
-            <p>A Lei Orgânica define os fundamentos da organização do município, como a divisão dos poderes (Executivo, Legislativo e, eventualmente, Judiciário), os direitos e deveres dos cidadãos, a organização administrativa, os processos de elaboração do orçamento e legislação municipal, além de outras disposições referentes à gestão pública local. Ela é de extrema importância, pois rege todas as atividades administrativas e políticas do município, estabelecendo os limites e as diretrizes para o exercício do poder, buscando garantir a autonomia municipal e o bem-estar da comunidade. </p>
+        echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';
 
-        </article>
+        echo "<h2>" . $linha["NomeProjeto"] . "</h2>";
+        echo "<p>" . $linha["DescricaoProjeto"] . "</p>";
+        echo "</article>";
+    }
+    ?>
 
-        <aside class="col-lg-6 col-md-6 col-sm-12">
+<?php
+        $sql = "SELECT l.CodigoProjeto, l.NomeProjeto, l.DescricaoProjeto, i.caminhoImagemGoverno, i.CategoriaImagemGoverno, i.descricaoImagemGoverno
+        FROM legislacao l INNER join ImagensGoverno i
+                    on l.CodigoProjeto = i.CodigoProjeto
+        WHERE l.CodigoProjeto = 3";
+        $resultado = $conecta->query($sql);
 
-            <img src="../imgs/governo/leideorca.webp" alt="foto de uma tipografia dizendo Lei de Diretrizes Orçamentárias">
-            <h2>Lei de Diretrizes Orçamentárias</h2>
+    while($linha = $resultado->fetch_assoc()) {
 
-            <p>A Lei de Diretrizes Orçamentárias (LDO) é um instrumento fundamental na estruturação do planejamento financeiro do país. Elaborada anualmente, a LDO estabelece as metas e prioridades do governo para o próximo exercício fiscal, orientando a elaboração da Lei Orçamentária Anual (LOA).Essa lei é essencial para garantir a transparência, a eficiência e a disciplina fiscal na gestão dos recursos públicos, proporcionando um planejamento mais sólido e alinhado com as necessidades e possibilidades do país.</p>
-        </aside>
-    </div>
+      echo "<div class='row'>";
+      echo '<section class="col-lg-12 col-md-12 col-sm-12">';
+      echo "<h2>" . $linha["NomeProjeto"] . "</h2>";
+      echo "</section>";
 
-  <div class="row">
-        <section class="col-lg-12 col-md-12 col-sm-12">
-            <h2>PLANO PLURIANUAL - SÃO ROQUE</h2>
-        </section>
+        echo '<article class="col-lg-6 col-md-6 col-sm-12">';
 
-        <section class="col-lg-6 col-md-6 col-sm-12">
+        echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';
 
-            <p>O Plano Plurianual (PPA) é um instrumento de planejamento de médio prazo adotado pelo governo, seja em nível federal, estadual ou municipal, que estabelece as diretrizes, objetivos e metas para um período de quatro anos. Ele define as prioridades, programas e ações que orientarão as políticas públicas e os investimentos do governo ao longo desse período, alinhando-se com as necessidades e demandas da sociedade. O PPA visa promover a continuidade e a consistência das ações governamentais, possibilitando uma gestão mais eficiente e transparente dos recursos públicos.</p>
+        echo "</article>";
 
-        </section>
-
-        <section class="col-lg-6 col-md-6 col-sm-12">
-            <img src="../imgs/governo/ppa.webp" alt="foto de uma tipografia dizendo PPA, referente ao plano plurianual">
-        </section>
-    </div>
+        echo '<Section class="col-lg-6 col-md-6 col-sm-12">';
+        echo "<p>" . $linha["DescricaoProjeto"] . "</p>";
+        echo "</section>";
+    }
+    ?>
 
     <div class="row">
         <section class="col-lg-12 col-md-12 col-sm-12">
