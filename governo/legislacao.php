@@ -31,15 +31,15 @@
         $resultado = $conecta->query($sql);
 
     echo "<div class='row'>";
-    echo '<section class="col-lg-12 col-md-12 col-sm-12">';
-    echo "<h1>LEGISLAÇÃO</h1>";
+    echo '<section class="col-lg-12 col-md-12 col-sm-12" role ="main" aria-label="conteúdo principal do site" aria-labelledby="main-heading">';
+    echo "<h1 id="main-heading">LEGISLAÇÃO</h1>";
     echo "</section>";
     while($linha = $resultado->fetch_assoc()) {
-        echo '<article class="col-lg-6 col-md-6 col-sm-12">';
+        echo '<article class="col-lg-6 col-md-6 col-sm-12" role ="article" aria-labelledby="article-heading">';
 
         echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';
 
-        echo "<h2>" . $linha["NomeProjeto"] . "</h2>";
+        echo "<h2 id="article-heading">" . $linha["NomeProjeto"] . "</h2>";
         echo "<p>" . $linha["DescricaoProjeto"] . "</p>";
         echo "</article>";
     }
@@ -55,15 +55,15 @@
     while($linha = $resultado->fetch_assoc()) {
 
       echo "<div class='row'>";
-      echo '<section class="col-lg-12 col-md-12 col-sm-12">';
-      echo "<h2>" . $linha["NomeProjeto"] . "</h2>";
+      echo '<section class="col-lg-12 col-md-12 col-sm-12" role="region" aria-labelledby="section-heading">';
+      echo "<h2 id="section-heading">" . $linha["NomeProjeto"] . "</h2>";
       echo "</section>";
 
-        echo '<article class="col-lg-6 col-md-6 col-sm-12">';
+        echo '<section class="col-lg-6 col-md-6 col-sm-12">';
 
         echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';
 
-        echo "</article>";
+        echo "</section>";
 
         echo '<Section class="col-lg-6 col-md-6 col-sm-12">';
         echo "<p>" . $linha["DescricaoProjeto"] . "</p>";
@@ -72,8 +72,8 @@
     ?>
 
     <div class="row">
-        <section class="col-lg-12 col-md-12 col-sm-12">
-            <h2>PROJETOS EM TRÂMITE</h2>
+        <section class="col-lg-12 col-md-12 col-sm-12" role="region" aria-labelledby="section-heading">
+            <h2 id="section-heading">PROJETOS EM TRÂMITE</h2>
         </section>
         <div class="accordion col-12" id="accordionExample">
               <div class="row">

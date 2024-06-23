@@ -20,21 +20,21 @@
 
     <!-- Fim Header -->
   <div class="container text-center">
-    <div class="row">
+    <main class="row" role ="main" aria-label="conteúdo principal do site" aria-labelledby="main-heading">
         <section class="col-lg-12 col-md-12 col-sm-12">
-            <h1>GOVERNO</h1>
+            <h1 id ="main-heading">GOVERNO</h1>
         </section>
-        <article class="col-lg-8 col-md-6 col-sm-12">
-            <h1>Legislação Municipal</h1>
+        <article class="col-lg-8 col-md-6 col-sm-12" role="article" aria-labelledby="article-text">
+            <h1 aria-labelledby="article-text">Legislação Municipal</h1>
             <figure>
-            <img src="../imgs/governo/prefeitura.webp" alt="foto da fachada da prefeitura municipal da cidade de são roque">
+            <img src="../imgs/governo/prefeitura.webp" alt="foto da fachada de um predio de um andar, retangular, com os dizeres prefeitura municipal de são roque">
             <figcaption>Saiba mais sobre os projetos que estão em pauta na prefeitura da cidade, sobre as Leis de Diretrizes Orçamentárias, a Lei orgânica do Município e o Plano Plurianual da cidade de São Roque. <a href="legislacao.php">Leia Mais</a> 
             </figcaption>
             </figure>
         </article>
 
-        <aside class="col-lg-4 col-md-6 col-sm-12 aside_home_gov">
-          <h2 class="hide">Aside - h2</h2>
+        <aside class="col-lg-4 col-md-6 col-sm-12 aside_home_gov" role ="region" aria-labelledby="aside-text">
+          <h2 class="hide" id="aside-text">Secretarias</h2>
           <div class="container text-center">
             <h1>Secretarias</h1>
             <figure class="col-lg-12 col-md-12 col-sm-12">
@@ -48,18 +48,18 @@
           </div>
 
         </aside>
-    </div>
+    </main>
 
     <div class="row">
-        <section class="col-lg-6 col-md-6 col-sm-12">
-            <H2>PODER EXECUTIVO</H2>
+        <section class="col-lg-6 col-md-6 col-sm-12" role="region" aria-labelledby="section-heading">
+            <H2 id="section-heading">PODER EXECUTIVO</H2>
             <figure>
                 <img src="../imgs/governo/gutoissa.webp" alt="foto do prefeito guto issa segurando o diploma de prefeito">
             </figure>
             <p>Saiba mais sobre o prefeito e o vice-prefeito da cidade de São Roque, um pouco da biografia e história das pessoas que estão a frente do governo você pode encontrar na página do poder executivo. <a href="prefeitura.php">Saiba Mais</a></p>
         </section>
-        <section class="col-lg-6 col-md-6 col-sm-12">
-            <H2>PODER LEGISLATIVO</H2>
+        <section class="col-lg-6 col-md-6 col-sm-12" role="region" aria-labelledby="section-heading">
+            <H2 id="section-heading">PODER LEGISLATIVO</H2>
             <figure>
                 <img src="../imgs/governo/camaramunicipal.webp" alt="foto da fachada da câmara municipal da cidade de são roque">
             </figure>
