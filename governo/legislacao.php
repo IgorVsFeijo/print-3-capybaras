@@ -32,14 +32,14 @@
 
     echo "<div class='row'>";
     echo '<section class="col-lg-12 col-md-12 col-sm-12" role ="main" aria-label="conteúdo principal do site" aria-labelledby="main-heading">';
-    echo "<h1 id="main-heading">LEGISLAÇÃO</h1>";
+    echo "<h1 id='main-heading'>LEGISLAÇÃO</h1>";
     echo "</section>";
     while($linha = $resultado->fetch_assoc()) {
         echo '<article class="col-lg-6 col-md-6 col-sm-12" role ="article" aria-labelledby="article-heading">';
 
         echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';
 
-        echo "<h2 id="article-heading">" . $linha["NomeProjeto"] . "</h2>";
+        echo "<h2 id='article-heading'>" . $linha["NomeProjeto"] . "</h2>";
         echo "<p>" . $linha["DescricaoProjeto"] . "</p>";
         echo "</article>";
     }
@@ -56,7 +56,7 @@
 
       echo "<div class='row'>";
       echo '<section class="col-lg-12 col-md-12 col-sm-12" role="region" aria-labelledby="section-heading">';
-      echo "<h2 id="section-heading">" . $linha["NomeProjeto"] . "</h2>";
+      echo "<h2 id='section-heading'>" . $linha["NomeProjeto"] . "</h2>";
       echo "</section>";
 
         echo '<section class="col-lg-6 col-md-6 col-sm-12">';
