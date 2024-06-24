@@ -78,6 +78,7 @@
             echo "</figure>";
             echo "</section>";
         }
+        echo "</div>";
     ?>
         <?php 
           include '../includes/inc_referencias.php';
