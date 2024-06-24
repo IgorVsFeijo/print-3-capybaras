@@ -22,18 +22,18 @@
     <!-- Fim Header -->
 
     <div class="container espaço_noticia">
-      <main>
+      <main role="main" aria-label="conteúdo principal do site">
         <div class="row text-center">
-          <section class="col-lg-12 col-md-12 col-sm-12">
-            <img src="imgs/governo/ouvidoria.webp" alt="foto de tipografia escrito ouvidoria, com ícone de mulher falando ao telefone">
-          </section>
-  <article class="col-lg-8 col-md-6 col-sm-12">
-      <h2>Atribuições da Ouvidoria</h2>
-      <p>A ouvidoria municipal desempenha um papel crucial como um canal de comunicação entre os cidadãos e a administração pública local. Sua principal função é receber, registrar e encaminhar as demandas, reclamações, sugestões e elogios da população em relação aos serviços prestados pelo município. Além disso, a ouvidoria atua como uma ferramenta de controle social, garantindo a transparência e a eficiência na gestão pública ao investigar denúncias de irregularidades, buscando soluções e promovendo melhorias nos serviços oferecidos.Ao atuar como um elo entre a população e os órgãos públicos, a ouvidoria desempenha um papel fundamental na promoção da responsabilização, incentivando a prestação de contas por parte do governo e contribuindo para o fortalecimento da democracia participativa no âmbito local.</p>
-      <p>
-  </article>
-  <aside class="col-lg-4 col-md-6 col-sm-12">
-    <h2>Sua Voz nos Ajuda</h2>
+        <section class="col-lg-12 col-md-12 col-sm-12">
+          <img src="imgs/governo/ouvidoria.webp" alt="foto de tipografia escrito ouvidoria, com ícone de mulher falando ao telefone">
+        </section>
+        <article class="col-lg-8 col-md-6 col-sm-12" role="article" aria-labelledby="article-heading">
+          <h2 id="article-heading">Atribuições da Ouvidoria</h2>
+            <p>A ouvidoria municipal desempenha um papel crucial como um canal de comunicação entre os cidadãos e a administração pública local. Sua principal função é receber, registrar e encaminhar as demandas, reclamações, sugestões e elogios da população em relação aos serviços prestados pelo município. Além disso, a ouvidoria atua como uma ferramenta de controle social, garantindo a transparência e a eficiência na gestão pública ao investigar denúncias de irregularidades, buscando soluções e promovendo melhorias nos serviços oferecidos.Ao atuar como um elo entre a população e os órgãos públicos, a ouvidoria desempenha um papel fundamental na promoção da responsabilização, incentivando a prestação de contas por parte do governo e contribuindo para o fortalecimento da democracia participativa no âmbito local.</p>
+            <p>
+      </article>
+  <aside class="col-lg-4 col-md-6 col-sm-12" role="region" aria-labelledby="aside-heading">
+    <h2 id="aside-heading">Sua Voz nos Ajuda</h2>
 
     <p>A participação da população na ouvidoria municipal desempenha um papel fundamental ao permitir que os cidadãos contribuam com reclamações, sugestões e denúncias, facilitando a identificação de problemas nos serviços públicos. Essa interação direta promove uma gestão mais transparente e responsiva, fortalecendo a democracia participativa e possibilitando que as demandas dos cidadãos direcionem as ações de melhoria e a formulação de políticas públicas mais alinhadas com as reais necessidades da comunidade. Preencha o formulário abaixo e nos ajude a melhorar a cidade para todos.</p>
     <p>
