@@ -21,17 +21,17 @@
 
     <!-- Fim Header -->
     <div class="container text-center">
-    <div class="row">
-        <section class="col-lg-12 col-md-12 col-sm-12">
-            <h1>SECRETARIAS MUNICIPAIS</h1>
+    <main class="row" role="main" aria-label="conteúdo principal do site">
+        <section class="col-lg-12 col-md-12 col-sm-12" role='region' aria-labelledby='section-heading'>
+            <h1 id="section-heading">SECRETARIAS MUNICIPAIS</h1>
         </section>
-        <article class="col-lg-12 col-md-12 col-sm-12">
-        <h2 class="hide">Article - h2</h2>
+        <article class="col-lg-12 col-md-12 col-sm-12" role='article' aria-labelledby='article-heading'>
+        <h2 class="hide" id="article-heading">Article - h2</h2>
             <p>As secretarias municipais possuem um papel crucial na administração e progresso das cidades. Seu propósito principal é coordenar e implementar políticas públicas em áreas como saúde, educação, transporte, cultura e meio ambiente. Com o intuito de suprir as necessidades da população local, estas secretarias planejam, organizam e executam ações, assegurando serviços de excelência e promovendo o bem-estar dos cidadãos. Adicionalmente, têm a responsabilidade de gerir os recursos públicos destinados a cada setor, buscando sua utilização eficiente e aprimorando os serviços oferecidos à comunidade. 
             Ao articular diferentes órgãos e áreas da administração pública, as secretarias municipais têm o papel de alinhar as estratégias e diretrizes determinadas pelo poder executivo local. Essa articulação visa promover a integração e um desenvolvimento coeso das políticas públicas, desempenhando um papel central na governança municipal. Assim, contribuem como pilares essenciais na construção de cidades mais inclusivas, sustentáveis e eficientes, atendendo às demandas e buscando aprimorar a qualidade de vida dos cidadãos que residem em São Roque.
             </p>
         </article>
-    </div>
+    </main>
 
     <?php
         $sql = "SELECT s.DepartamentoSecretaria, s.EmailSecretaria, s.TelefoneSecretaria, s.NomeResponsavel, i.caminhoImagemGoverno, i.CategoriaImagemGoverno, i.descricaoImagemGoverno
@@ -41,8 +41,8 @@
 
     echo "<div class='row'>";
     while($linha = $resultado->fetch_assoc()) {
-        echo "<section class='col-lg-4 col-md-4 col-sm-12'>";
-        echo    "<h2 class='hide'>Section - h2</h2>";
+        echo "<section class='col-lg-4 col-md-4 col-sm-12' role='region' aria-labelledby='secretarias'>";
+        echo    "<h2 class='hide' id='secretarias'>Secretarias</h2>";
         echo "<figure>";
 
         echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';

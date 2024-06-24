@@ -22,9 +22,9 @@
     <!-- Fim Header -->
     <div class="container text-center">
     <div class="row">
-        <section class="col-lg-12 col-md-12 col-sm-12">
-            <h1>Poder Executivo</h1>
-        </section>
+        <main class="col-lg-12 col-md-12 col-sm-12" role="main" aria-label="conteúdo principal do site" aria-labelledby="main-heading">
+            <h1 id="main-heading">Poder Executivo</h1>
+        </main>
 
         <?php
         $sql = "SELECT p.NomeExecutivo, p.CargoExecutivo, p.DescricaoExecutivo, i.caminhoImagemGoverno, i.CategoriaImagemGoverno, i.descricaoImagemGoverno
@@ -33,14 +33,14 @@
         $resultado = $conecta->query($sql);
 
         while($linha = $resultado->fetch_assoc()) {
-          echo '<article class="col-lg-6 col-md-6 col-sm-12">';
-          echo  "<h2 class='hide'>Article - h2</h2>";
+          echo '<article class="col-lg-6 col-md-6 col-sm-12" role="article" aria-labelledby="article-text">';
+          echo  "<h2 class='hide' id='article-text'>Article - h2</h2>";
   
           echo '<img src="'.$linha['caminhoImagemGoverno'].'"  alt="'.$linha['descricaoImagemGoverno'].'">';
   
           echo " </article>";
-          echo "<aside class='col-lg-6 col-md-6 col-sm-12'>";
-          echo "<h2>". $linha["CargoExecutivo"] ."</h2>";
+          echo "<aside class='col-lg-6 col-md-6 col-sm-12' role='region' aria-labelledby='descricao-cargo'>";
+          echo "<h2 id='descricao-cargo'>". $linha["CargoExecutivo"] ."</h2>";
           echo "<p>" . $linha["DescricaoExecutivo"] . "</p>";
           echo "</aside>";
         }
