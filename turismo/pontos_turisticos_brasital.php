@@ -27,42 +27,46 @@
         </div>
         <main role="main">
         <article role="article">
-            <h2>Brasital</h2>
-            <figure>
-                <img src="../imgs/turismo/brasital_unica_desktop.webp" alt="Paisagem de cima do ponto turistico Brasital, ao meio algumas construções como casas, torres e em toda volta muita floresta.">
-            </figure>
-            <div class="row">
-                <p class="col-lg-6 col-md-6 col-sm-6 text-start">Muito mais do que uma antiga fábrica, a Brasital é um dos patrimônios mais importantes de São Roque, porque influenciou a cultura e a economia do município. </p>
-                <p class="col-lg-6 col-md-6 col-sm-6 text-start">A Brasital foi uma indústria têxtil construída em 1890 pelo industrial italiano Enrico Dell´Acqua, uma das primeiras do estado de São Paulo, sendo um dos prédios históricos mais importantes na região onde está localizada.</p>
-            </div>
-        </article>
-        <section role="region" aria-labelledby="section-heading">
-            <div class="row justify-content-start">
-                <h3 class="text-start" id="section-heading">Serviços:</h3>
-            </div>
+          <?php 
+              include '../includes/inc_sql.php';
 
-            <div class="text-start">
-                <p class="col-7"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-circle-fill tur_cor_servicos" viewBox="0 0 16 16">
-                        <circle cx="8" cy="8" r="8" >
-                    </svg> Av. Araçaí, 250 - Vila Aguiar, São Roque - SP, 18130-235</p>
+              if (isset($_GET['CodigoPontoTuristico'])) {
+                $id_ponto = $_GET['CodigoPontoTuristico'];
 
-                <p class="col-7"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-circle-fill tur_cor_servicos" viewBox="0 0 16 16">
-                        <circle cx="8" cy="8" r="8" >
-                    </svg> Visita gratuita</p>
+                $msql = "SELECT p.NomePontoTuristico, p.LocalPontoTuristico, p.DescricaoPontoTuristico, p.ServicosPontoTuristico, it.CaminhoImagemTurismo, it.DescricaoImagemTurismo, it.CategoriaImagemTurismo
+                      FROM pontosturisticos p INNER JOIN imagensturismo it
+                                          ON p.CodigoPontoTuristico = it.CodigoPontoTuristico
+                      WHERE p.CodigoPontoTuristico = ?";
+                $smts = $conecta->prepare($msql); // Prepara a declaração SQL
+                $smts->bind_param('i', $id_ponto); // Atribui o id do ponto turistico à declaração
+                $smts->execute(); // Executa a declaração
+                $resultado = $smts->get_result(); // Pega o resultado
 
-                <p class="col-7"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-circle-fill tur_cor_servicos" viewBox="0 0 16 16">
-                        <circle cx="8" cy="8" r="8" >
-                    </svg> Diariamente</p>
-
-                <p class="col-7"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-circle-fill tur_cor_servicos" viewBox="0 0 16 16">
-                        <circle cx="8" cy="8" r="8" >
-                    </svg> Trilhas e passeios calmos.</p>
-            </div>
-        </section>
+                if ($resultado->num_rows > 0) {
+                  while($linha = $resultado->fetch_assoc()){
+                    echo "<h2>". $linha['NomePontoTuristico']. "</h2>";
+                    echo "<figure>";
+                          echo "<img src='". $linha["CaminhoImagemTurismo"]. "' alt='". $linha["DescricaoImagemTurismo"]. "'>";
+                    echo "</figure>";
+                    echo "<div class='row'>";
+                        echo "<p class='col-lg-6 col-md-6 col-sm-6 text-start'>". $linha['DescricaoPontoTuristico']. "</p>";
+                        echo "<p class='col-lg-6 col-md-6 col-sm-6 text-start'><b>Local: </b>".$linha['LocalPontoTuristico']."</p>";
+                    echo "</div>";
+                    echo "<div class='row justify-content-start'><h4 class='text-start'>Serviços</h4></div>";
+                        echo "<div class='text-start'>";
+                            echo "<p class='col-7'>". $linha['ServicosPontoTuristico']."</p>";
+                        echo "</div>";
+                    echo "</div>";
+                  }
+                } else{
+                  echo '<p>Ponto Turístico não cadastrado </p>';
+                }
+              
+                $smts->close();
+          } else{
+             echo "<p>ID não existente</p>";
+          }
+          ?>
         </main>
 
         <?php 

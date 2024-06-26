@@ -31,7 +31,7 @@
             <?php 
             include '../includes/inc_sql.php';
 
-            $sql = "SELECT * from PontosTuristicos";
+            $sql = "SELECT CodigoPontoTuristico, NomePontoTuristico from PontosTuristicos";
             $resultado = $conecta->query($sql);
 
             if ($resultado->num_rows > 0) {
