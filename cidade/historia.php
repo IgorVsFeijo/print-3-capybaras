@@ -21,14 +21,14 @@
 
     <!-- Fim Header -->
 
-    <main class="cidade-historia">
-        <article class="container-lg">
+    <main class="cidade-historia" role="main">
+        <article class="container-lg" aria-labelledby="main-heading" role="article" aria-label="Área de apresentação da história da cidade, detalhando desde suas origens até os momentos atuais">
 
             <!-- Título do Artigo -->
             <div class="introducao-a-pagina">
                 <div class="texto-introdutorio">
                     <hgroup>
-                        <h1 class="h1-cidade">A HISTÓRIA</h1>
+                        <h1 class="h1-cidade" id="main-heading">A HISTÓRIA</h1>
                         <p class="h3">de São Roque</p>
                     </hgroup>
                     <!-- Introdução do Artigo -->
@@ -44,13 +44,13 @@
             <!-- Inicio Sessão Origens e Fundação -->
 
             <div>
-                <section class="origens">
-                    <h2 class="titulo-sessao">Origens e Fundação</h2>
+                <section class="origens" role="region" aria-labelledby="section-heading" aria-label="Área da página detalhando as origens da cidade de São Roque, com relação à imigração e também economia agrícola e escravista">
+                    <h2 class="titulo-sessao" id="section-heading">Origens e Fundação</h2>
                     <div class="row row-cols-2">
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/historia_origens_sm.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/historia_origens_md.webp">
-                            <img src="../imgs/cidade/historia_origens.webp" alt="">
+                            <img src="../imgs/cidade/historia_origens.webp" alt="" role="img">
                         </picture>
                         <div>
                             <p>São Roque, uma cidade histórica no estado de São Paulo, Brasil, foi fundada em 16 de
@@ -76,13 +76,13 @@
                 <!-- Fim da Sessão Origens e Fundação -->
 
                 <!-- Inicio da Sessão Riqueza Agricola -->
-                <section class="riqueza-agricola">
-                    <h2 class="titulo-sessao">Riqueza Agrícola</h2>
+                <section class="riqueza-agricola" role="region" aria-labelledby="section-heading" aria-label="Pequena área da página para explicação da riqueza agrícola da cidade, e sua ajuda na popularização da Terra do Vinho">
+                    <h2 class="titulo-sessao" id="section-heading">Riqueza Agrícola</h2>
                     <div class="card">
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/historia_agricultura_sm.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/historia_agricultura_md.webp">
-                            <img src="../imgs/cidade/historia_agricultura.webp" alt="">
+                            <img src="../imgs/cidade/historia_agricultura.webp" alt="" role="img">
                         </picture>
                         <p class="card-body legenda-bonitinha-cidade bg-white">A riqueza agrícola de São Roque é marcada pelo cultivo de uvas e produção
                             de vinhos, beneficiada pelo clima e solos férteis. A região é reconhecida por suas vinícolas
@@ -93,8 +93,8 @@
                 </section>
                 <!-- Fim de Sessao Riqueza Agricola -->
                 <!-- Inicio da sessão Cultura e Patrimonio -->
-                <section class="cultura-e-patrimonio">
-                    <h2 class="titulo-sessao">Cultura e Patrimônio</h2>
+                <section class="cultura-e-patrimonio" role="region" aria-labelledby="section-heading" aria-label="área detalhando mais sobre o forte aspecto cultural da cidade, sua miscigenação de nativos e imigranes europeus, bem como a produção vinícola característica">
+                    <h2 class="titulo-sessao" id="section-heading">Cultura e Patrimônio</h2>
                     <div class="row row-cols-2">
                         <p class="col-12">A cultura de São Roque é um mosaico vibrante, fortemente influenciado pelos
                             imigrantes portugueses e italianos. As tradições locais, celebradas em festas como a Festa
@@ -117,17 +117,17 @@
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/historia_tapetes_sm.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/historia_tapetes_md.webp">
-                            <img src="../imgs/cidade/historia_tapetes.webp" alt="">
+                            <img src="../imgs/cidade/historia_tapetes.webp" alt="" role="img">
                         </picture>
                     </div>
-                    <section class="historia-pts-turisticos">
-                        <h3 class="titulo-sessao2">CONHEÇA NOSSOS TESOUROS</h3>
+                    <section class="historia-pts-turisticos" role="region" aria-labelledby="section-heading" aria-label="área mostrando fotos de três pontos turísticos da cidade, marcas registradas de São Roque">
+                        <h3 class="titulo-sessao2" id="section-heading">CONHEÇA NOSSOS TESOUROS</h3>
                         <div class="row row-cols-sm-3">
-                            <figure>
+                            <figure role="figure">
                                 <picture>
                                     <source media="(max-width: 576px)" srcset="../imgs/cidade/historia_saboo_sm.webp">
                                     <source media="(max-width: 768px)" srcset="../imgs/cidade/historia_saboo_md.webp">
-                                    <img src="../imgs/cidade/historia_saboo.webp" alt="">
+                                    <img src="../imgs/cidade/historia_saboo.webp" alt="" role="img">
                                 </picture>
                                 <figcaption>morro do saboó</figcaption>
                             </figure>
@@ -137,7 +137,7 @@
                                         srcset="../imgs/cidade/historia_quilombo_sm.webp">
                                     <source media="(max-width: 768px)"
                                         srcset="../imgs/cidade/historia_quilombo_md.webp">
-                                    <img src="../imgs/cidade/historia_quilombo.webp" alt="">
+                                    <img src="../imgs/cidade/historia_quilombo.webp" alt="" role="img">
                                 </picture>
                                 <figcaption>quilombo do carmo</figcaption>
                             </figure>
@@ -147,22 +147,22 @@
                                         srcset="../imgs/cidade/historia_brasital_sm.webp">
                                     <source media="(max-width: 768px)"
                                         srcset="../imgs/cidade/historia_brasital_md.webp">
-                                    <img src="../imgs/cidade/historia_brasital.webp" alt="">
+                                    <img src="../imgs/cidade/historia_brasital.webp" alt="" role="img">
                                 </picture>
                                 <figcaption>brasital</figcaption>
                             </figure>
-                            <a href="" class="btn btn-primary btn-veja-mais">VEJA MAIS</a>
+                            <a href="" class="btn btn-primary btn-veja-mais" role="button" aria-atomic="false">VEJA MAIS</a>
                         </div>
                     </section>
                 </section>
                 <!-- Fim da sessão cultura e Patrimonio -->
-                <section class="saoroque-atual">
-                    <h2 class="titulo-sessao">SÃO ROQUE ATUAL</h2>
+                <section class="saoroque-atual" role="region" aria-labelledby="section-heading" aria-label="Área explicando sobre a atual condição econômica e política de São Roque, sob gestão do prefeito Augusto Issa">
+                    <h2 class="titulo-sessao" id="section-heading">SÃO ROQUE ATUAL</h2>
                     <div class="row row-cols-sm-2">
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/historia_saoroque_atual_sm.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/historia_saoroque_atual_md.webp">
-                            <img src="../imgs/cidade/historia_saoroque_atual.webp" alt="">
+                            <img src="../imgs/cidade/historia_saoroque_atual.webp" alt="" role="img">
                         </picture>
                         <div>
                             <p>São Roque, em sua fase atual, é notável por sua forte indústria de vinicultura, atraindo
@@ -182,12 +182,12 @@
                                 suas tradições locais. A cidade não é apenas um destino turístico por sua beleza natural
                                 e tranquilidade, mas também um lar para os moradores que valorizam a forte sensação de
                                 comunidade e o legado cultural.</p>
-                            <a href="" class="btn btn-saiba-mais">CONHEÇA NOSSOS PONTOS TURISTICOS</a>
+                            <a href="" class="btn btn-saiba-mais" role="button" aria-atomic="false">CONHEÇA NOSSOS PONTOS TURISTICOS</a>
                         </div>
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/historia_saoroque_atual2_sm.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/historia_saoroque_atual2_md.webp">
-                            <img src="../imgs/cidade/historia_saoroque_atual2.webp" alt="">
+                            <img src="../imgs/cidade/historia_saoroque_atual2.webp" alt="" role="img">
                         </picture>
                     </div>
                 </section>

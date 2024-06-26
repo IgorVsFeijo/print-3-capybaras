@@ -21,25 +21,23 @@
 
     <!-- Fim Header -->
 
-    <main id="sessao-hino">
+    <main id="sessao-hino" role="main">
         <!-- Inicio do Artigo -->
-        <article class="container-lg">
+        <article class="container-lg" role="article" aria-labelledby="main-heading" aria-label="página da área de Cidade dedicada ao detalhamento sobre o hino da Estância Turística de São Roque">
 
             <div class="poster">
 
                     <hgroup class="titulo-poster-fundo-branco">
-                        <h1 class="h1-cidade
-
-">HINO DA CIDADE</h1>
+                        <h1 class="h1-cidade" id="main-heading">HINO DA CIDADE</h1>
                         <p class="h3">Canto de Exaltação à São Roque</p>
                     </hgroup>
             </div>
 
             <div class="titulo-sessao3"></div>
 
-            <section class="cidade-sessao-retangulares">
-                <h3 class="titulo-sessao">VÍDEO</h3>
-                <figure>
+            <section class="cidade-sessao-retangulares" role="region" aria-labelledby="section-heading" aria-label="área da página com um vídeo puxado do YouTube com o hino de São Roque e sua letra, além dos autores de letra e música">
+                <h3 class="titulo-sessao" id="section-heading">VÍDEO</h3>
+                <figure role="figure">
                     <iframe src="https://www.youtube.com/embed/DrYRJNrCN3U?si=0TtCDzLd1wE_-WGR"
                         title="YouTube video player" class="flex-grow-1"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -51,8 +49,8 @@
                 </figure>
             </section>
 
-            <section>
-                <h3 class="titulo-sessao">LETRA</h3>
+            <section role="region" aria-labelledby="section-heading" aria-label="área da página contendo a letra completa do Hino de São Roque, dividida em oito estrofes">
+                <h3 class="titulo-sessao" id="section-heading">LETRA</h3>
                 <div class="row row-cols-md-2">
                     <div>
                         <p>
