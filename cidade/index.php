@@ -24,13 +24,10 @@
     <main class="home-cidade">
         <article class="container-lg">
             <div class="poster">
-
-                <div>
-                    <hgroup class="titulo-cidade">
+                <hgroup class="titulo-poster-fundo-branco">
                         <h1 class="h1-cidade">A CIDADE</h1>
                         <p class="h3">de São Roque</p>
-                    </hgroup>
-                </div>
+                </hgroup>
             </div>
 
             <div class="container-lg">

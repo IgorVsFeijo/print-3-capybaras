@@ -1,4 +1,55 @@
-hgroup.titulo-cidade{
+.titulo-poster-fundo-branco {
+    MAX-WIDTH: 500PX;
+    PADDING: 10PX 40PX;
     background-color: white;
+    MARGIN-BOTTOM: 5%;
+    WIDTH: 100%;
+}
 
+#sessao-hino hgroup p{
+    font-size: 1.6em;
+}
+
+.paginas-area-cidade > main > article > div:first-child.introducao-a-pagina{
+    flex-direction: row;
+    padding: 0px 25px;
+    gap: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: stretch;
+}
+
+.paginas-area-cidade > main.cidade-historia > article > div:first-child.introducao-a-pagina{
+background-image: url(../imgs/cidade/historia_poster.webp);
+}
+
+.paginas-area-cidade > main.pessoas-notaveis > article > div:first-child.introducao-a-pagina{
+    background-image: url(../imgs/cidade/pessoas_poster.webp);
+    }
+
+    .paginas-area-cidade > main.cidade-simbolos > article > div:first-child.introducao-a-pagina{
+        background-image: url(../imgs/cidade/simbolos_md3.webp);
+        }
+
+
+.paginas-area-cidade > main > article > div:first-child.introducao-a-pagina div{
+    flex-grow: 0;
+}
+
+.texto-introdutorio{
+    padding: 20px;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px){
+    .paginas-area-cidade > main > article > div:first-child.introducao-a-pagina{
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .paginas-area-cidade > main > article > div:first-child div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

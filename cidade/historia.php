@@ -25,8 +25,8 @@
         <article class="container-lg">
 
             <!-- Título do Artigo -->
-            <div class="poster">
-                <div>
+            <div class="introducao-a-pagina">
+                <div class="texto-introdutorio">
                     <hgroup>
                         <h1 class="h1-cidade">A HISTÓRIA</h1>
                         <p class="h3">de São Roque</p>

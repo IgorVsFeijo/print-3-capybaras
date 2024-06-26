@@ -21,12 +21,12 @@
 
     <!-- Fim Header -->
 
-    <main id="pessoas-notaveis" class="container-lg">
+    <main class="pessoas-notaveis" class="container-lg">
 
         <article>
             <!-- Introducao do Artigo Pessoas Notaveis -->
-            <div class="pn-introducao poster">
-                <div>
+            <div class="introducao-a-pagina">
+                <div class="texto-introdutorio">
                     <h1 class="h1-cidade
 ">
                         PESSOAS <span class="d-block h3">Notáveis</span>

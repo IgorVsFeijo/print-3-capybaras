@@ -27,14 +27,12 @@
 
             <div class="poster">
 
-                <div>
-                    <hgroup>
+                    <hgroup class="titulo-poster-fundo-branco">
                         <h1 class="h1-cidade
 
-">HINO DE SÃO ROQUE</h1>
+">HINO DA CIDADE</h1>
                         <p class="h3">Canto de Exaltação à São Roque</p>
                     </hgroup>
-                </div>
             </div>
 
             <div class="titulo-sessao3"></div>

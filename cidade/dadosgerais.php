@@ -28,14 +28,12 @@
 
             <div class="poster">
 
-                <div>
-                    <hgroup>
+                    <hgroup class="titulo-poster-fundo-branco">
                         <h1 class="h1-cidade
 
 ">DADOS GERAIS</h1>
                         <p class="h3">Informações Úteis</p>
                     </hgroup>
-                </div>
             </div>
 
             <!-- Inicio da sessão de informações em formato Dashboard -->

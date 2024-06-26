@@ -21,13 +21,13 @@
 
     <!-- Fim Header -->
 
-    <main id="cidade-simbolos">
+    <main class="cidade-simbolos">
         <!-- Ínicio do Artigo -->
         <article class="container-lg">
 
             <!-- Inicio Introdução -->
-            <div class="area-cidade-introducao poster">
-                <div>
+            <div class="introducao-a-pagina">
+                <div class="texto-introdutorio">
                     <hgroup>
                         <h1 class="h1-cidade
 
