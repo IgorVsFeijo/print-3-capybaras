@@ -21,9 +21,9 @@
 
     <!-- Fim Header -->
 
-    <main class="pessoas-notaveis" class="container-lg">
+    <main class="pessoas-notaveis" class="container-lg" role="main">
 
-        <article>
+        <article role="article">
             <!-- Introducao do Artigo Pessoas Notaveis -->
             <div class="introducao-a-pagina">
                 <div class="texto-introdutorio">
@@ -46,9 +46,9 @@
 
             <!-- Inicio Sessão Cards Pessoas Notaveis -->
 
-            <section class="sessao-cards-pessoas-notaveis">
+            <section class="sessao-cards-pessoas-notaveis" role="region">
                 <h2 class="titulo-sessao vazio">Cartões Pessoas Notáveis</h2>
-                <section class="card">
+                <section class="card" role="region">
                     <figure class="card-img">
                                                     <picture>
                                     <source media="(max-width: 576px)" srcset="../imgs/cidade/pessoas_notaveis_sm2.webp">
@@ -82,7 +82,7 @@
                         </aside>
                     </div>
                 </section>
-                <section class="card">
+                <section class="card" role="region">
                     <div class="card-body">
                         <hgroup>
                             <h3 class="card-title">EMIKO TAKATATSU</h3>
@@ -119,7 +119,7 @@
                                 </picture>
                     </figure>
                 </section>
-                <section class="card">
+                <section class="card" role="region">
                     <figure class="card-img">
                                                     <picture>
                                     <source media="(max-width: 576px)" srcset="../imgs/cidade/pessoas_notaveis_sm2.webp">
@@ -151,10 +151,10 @@
             <!-- Fim Sessão Cards Pessoas Notaveis -->
 
             <!-- Inicio da Sessao São Roque na Mídia -->
-            <section class="sessao-sao-roque-na-midia">
+            <section class="sessao-sao-roque-na-midia" role="region">
                 <h2 class="titulo-sessao">SÃO ROQUE NA MÍDIA</h2>
                 <div class="row row-cols-md-3">
-                    <section class="card noticia-pessoa-notavel">
+                    <section class="card noticia-pessoa-notavel" role="region">
                         <div class="card-body order-1">
                             <h3 class="card-title">primeira modelo fissurada a posar para Vogue</h3>
                             <p class="card-text">Jovem, natural de São Roque, se transformou em influenciadora e ativista pelas pessoas com fissura labiopalatina.</p>
@@ -168,7 +168,7 @@
                                 </picture>
                         </figure>
                     </section>
-                    <section class="card noticia-pessoa-notavel">
+                    <section class="card noticia-pessoa-notavel" role="region">
                         <div class="card-body order-1">
                             <h3 class="card-title">Jovem com paralisia cerebral que se inspira em Alok encontra ídolo</h3>
                             <p class="card-text">João Prestes, tem 19 anos e é de São Roque (SP). Fotos e músicas do DJ ajudaram o jovem a evoluir e se manter feliz diante das dificuldades.</p>
@@ -182,7 +182,7 @@
                                 </picture>
                         </figure>
                     </section>
-                    <section class="card noticia-pessoa-notavel">
+                    <section class="card noticia-pessoa-notavel" role="region">
                         <div class="card-body order-1">
                             <h3 class="card-title">Pioneiro, artista de são roque criou jornal para público LGBT durante ditadura</h3>
                             <p class="card-text">Darcy Penteado nasceu em 1926 na cidade de São Roque (SP) e foi atuante na luta pelos direitos da comunidade gay.</p>
