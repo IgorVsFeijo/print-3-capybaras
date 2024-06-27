@@ -30,11 +30,11 @@
           <?php 
               include '../includes/inc_sql.php';
 
-              if (isset($_GET['CodigoPontoTuristico'])) {
-                $id_ponto = $_GET['CodigoPontoTuristico'];
+              if (isset($_GET['codigopontoturistico'])) {
+                $id_ponto = $_GET['codigopontoturistico'];
 
                 $msql = "SELECT p.NomePontoTuristico, p.LocalPontoTuristico, p.DescricaoPontoTuristico, p.ServicosPontoTuristico, it.CaminhoImagemTurismo, it.DescricaoImagemTurismo, it.CategoriaImagemTurismo
-                      FROM pontosturisticos p INNER JOIN imagensturismo it
+                      FROM pontosturisticos p JOIN imagensturismo it
                                           ON p.CodigoPontoTuristico = it.CodigoPontoTuristico
                       WHERE p.CodigoPontoTuristico = ?";
                 $smts = $conecta->prepare($msql); // Prepara a declaração SQL
@@ -66,6 +66,8 @@
           } else{
              echo "<p>ID não existente</p>";
           }
+
+          $conecta->close();
           ?>
         </main>
 
