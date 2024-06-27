@@ -34,21 +34,21 @@
                     <h2 class="text-center font22" id="section-heading">Empregabilidade</h2>
                     <div class="col-12">
                         <section class="row cidadao_noticias align-items-center justify-content-center gap-5 mb-5" role="region" aria-labelledby="section-heading">
-                            <figure class="col-auto text-center" id="section-heading">
+                            <figure class="col-auto text-center">
                                 <img src="../imgs/cidadao/cidadao_empresa_150.webp" alt="uma ilustração com duas figuras humanas apontando para uma prancheta do tamanho deles" role="img">
                             </figure>
                             <div class="col-lg-4">
-                                <h3 class="fs-6">Oportunidade de emprego</h3>
+                                <h3 class="fs-6" id="section-heading">Oportunidade de emprego</h3>
                                 <p>Empresa de São Roque contrata Ajudante Geral; veja como se candidatar</p>
                                 <a class="btn btn-vermais" href="#" role="link">Ver mais</a>
                             </div>
                         </section>
                         <section class="row cidadao_noticias align-items-center justify-content-center gap-5 mb-5" role="region" aria-labelledby="section-heading">
-                            <figure class="col-auto text-center" id="section-heading">
+                            <figure class="col-auto text-center">
                                 <img src="../imgs/cidadao/cidadao_fatec_150.webp" alt="a faixada da fatec são roque com um carro branco na frente" role="img">
                             </figure>
                             <div class="col-lg-4">
-                                <h3 class="fs-6">Oportunidade de emprego</h3>
+                                <h3 class="fs-6" id="section-heading">Oportunidade de emprego</h3>
                                 <p>Fatec São Roque tem processo seletivo para uma vaga de professor no ensino superior; confira</p>
                                 <a class="btn btn-vermais" href="#" role="link">Ver mais</a>
                             </div>
@@ -61,14 +61,14 @@
                     <h2 class="text-center" id="section-heading">Concursos e Processos Seletivos</h2>
                     <div class="cidadao_concursos">
                         <ul>
-                            <li><a href="#" role="link">Processo Seletivo Simplificado Para Contratação De Auxiliar de Classe</a></li>
-                            <li><a href="#" role="link">Processo Seletivo Para Contratação de Dentista, Farmacêutico e Enfermeiro</a></li>
-                            <li><a href="#" role="link">Processo Seletivo Simplificado para Contratação por Tempo Determinado</a></li>
-                            <li><a href="#" role="link">Processo Seletivo Para Cuidador</a></li>
-                            <li><a href="#" role="link">Concurso Público Para Agente Comunitário de Saúde</a></li>
+                            <li><a href="#" role="link" aria-label="link-para-ver-a-mais-informacoes-sobre-processo-seletivo-auxiliar-classe">Processo Seletivo Simplificado Para Contratação De Auxiliar de Classe</a></li>
+                            <li><a href="#" role="link" aria-label="link-para-ver-a-mais-informacoes-sobre-processo-seletivo-dentista-farmaceutico-enfermeiro">Processo Seletivo Para Contratação de Dentista, Farmacêutico e Enfermeiro</a></li>
+                            <li><a href="#" role="link" aria-label="link-para-ver-a-mais-informacoes-sobre-processo-seletivo-contrato-tempo-determinado">Processo Seletivo Simplificado para Contratação por Tempo Determinado</a></li>
+                            <li><a href="#" role="link" aria-label="link-para-ver-a-mais-informacoes-sobre-processo-seletivo-cuidador">Processo Seletivo Para Cuidador</a></li>
+                            <li><a href="#" role="link" aria-label="link-para-ver-a-mais-informacoes-sobre-concurso-publico-agente-comunitario">Concurso Público Para Agente Comunitário de Saúde</a></li>
                         </ul>
                         <div class="d-flex justify-content-end">
-                            <a class="btn btn-vermais" href="#" role="link">Ver mais</a>
+                            <a class="btn btn-vermais" href="#" role="link" aria-label="link-para-ver- a-mais-sobre-processos-e-concursos-publicos">Ver mais</a>
                         </div>
                     </div>
                    
@@ -83,7 +83,7 @@
                             <div class="col-lg-8">
                                 <h4>Campanha de vacinação contra Influenza</h4>
                                 <p>Procure a UBS mais próxima</p>
-                                <a class="btn btn-vermais" href="#" role="link">Ver mais</a>
+                                <a class="btn btn-vermais" href="#" role="link" aria-label="link-para-ver- a-mais-informacoes-sobre-a-campanha-de-vacinacao-influenza">Ver mais</a>
                             </div>
                         </div>
                     </article>
@@ -124,12 +124,12 @@
                 <section class="col-12 cidadao_card" role="region" aria-labelledby="section-heading">
                     <h3 id="section-heading">Unidades de saúde</h3>
                     <ul class="row" aria-label="Conjunto de unidades básicas de saúde" role="list">
-                        <li class="col-6"><a href="https://maps.app.goo.gl/PXSkHLNZSr8ChbyEA">PS Goianã</a></li>
-                        <li class="col-6"><a href="https://maps.app.goo.gl/nDbYxSshQyaVZ3m67">UBS Central</a></li>
-                        <li class="col-6"><a href="https://maps.app.goo.gl/t734crhrBW7utfwT9">UBS Guaçu</a></li>
-                        <li class="col-6"><a href="https://maps.app.goo.gl/arwkNt6oGCdiMFzh9">UBS Taboão</a></li>
-                        <li class="col-6"><a href="https://maps.app.goo.gl/GngCUJZy2m1dpkrB6">PS Vila Nova</a></li>
-                        <li class="col-6"><a href="https://maps.app.goo.gl/Vr97ieYDFkAnLy4K6">PS Saboó</a></li>
+                        <li class="col-6"><a href="https://maps.app.goo.gl/PXSkHLNZSr8ChbyEA" role="link">PS Goianã</a></li>
+                        <li class="col-6"><a href="https://maps.app.goo.gl/nDbYxSshQyaVZ3m67" role="link">UBS Central</a></li>
+                        <li class="col-6"><a href="https://maps.app.goo.gl/t734crhrBW7utfwT9" role="link">UBS Guaçu</a></li>
+                        <li class="col-6"><a href="https://maps.app.goo.gl/arwkNt6oGCdiMFzh9" role="link">UBS Taboão</a></li>
+                        <li class="col-6"><a href="https://maps.app.goo.gl/GngCUJZy2m1dpkrB6" role="link">PS Vila Nova</a></li>
+                        <li class="col-6"><a href="https://maps.app.goo.gl/Vr97ieYDFkAnLy4K6" role="link">PS Saboó</a></li>
                     </ul>
                 </section>
  

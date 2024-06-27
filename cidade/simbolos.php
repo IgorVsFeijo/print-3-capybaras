@@ -21,17 +21,15 @@
 
     <!-- Fim Header -->
 
-    <main class="cidade-simbolos">
+    <main class="cidade-simbolos" role="main" aria-label="conteúdo principal do site" aria-labelledby="main-heading">
         <!-- Ínicio do Artigo -->
-        <article class="container-lg">
+        <article class="container-lg" role="article">
 
             <!-- Inicio Introdução -->
             <div class="introducao-a-pagina">
                 <div class="texto-introdutorio">
                     <hgroup>
-                        <h1 class="h1-cidade
-
-">SÍMBOLOS</h1>
+                        <h1 class="h1-cidade" id="main-heading">SÍMBOLOS</h1>
                         <p class="h3">Brasão e Bandeira</p>
                     </hgroup>
                     <p>Esta página oferece um olhar detalhado sobre o brasão e a bandeira de São Roque, destacando os
@@ -43,8 +41,8 @@
 
             <div class="titulo-sessao h3 vazio">Brasão e Bandeira</div>
 
-            <section class="sessao-brasao">
-                <h3 class="titulo-sessao3">BRASÃO</h3>
+            <section class="sessao-brasao" role="region" aria-labelledby="section-heading">
+                <h3 class="titulo-sessao3" id="section-heading">BRASÃO</h3>
                 <div class="row row-cols-2">
                     <div>
                         <h3>BRASÃO</h3>
@@ -68,14 +66,14 @@
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/simbolos_sm2.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/simbolos_md2.webp">
-                            <img src="../imgs/cidade/simbolos_brasao.webp" alt="">
+                            <img src="../imgs/cidade/simbolos_brasao.webp" alt="Brasão de São Roque, há uma faixa vermelha na parte inferior escrito 'MEA PAULISTA GENS', em cada uma das laterais há uma pessoa">
                         </picture>
                     </figure>
                 </div>
             </section>
 
-            <section class="sessao-bandeira">
-                <h3 class="titulo-sessao3">BANDEIRA</h3>
+            <section class="sessao-bandeira" role="region" aria-labelledby="section-heading">
+                <h3 class="titulo-sessao3" id="section-heading">BANDEIRA</h3>
                 <div class="row row-cols-2">
                     <div class="order-1">
                         <h3>BANDEIRA</h3>
@@ -91,7 +89,7 @@
                         <picture>
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/simbolos_sm3.webp">
                             <source media="(max-width: 768px)" srcset="../imgs/cidade/simbolos_md3.webp">
-                            <img src="../imgs/cidade/simbolos_bandeira.webp" alt="">
+                            <img src="../imgs/cidade/simbolos_bandeira.webp" alt="Bandeira de São Roque, o brasão ao centro, duas faixas (uma vermelha, outra preta) que vão de uma diagonal a outra de ambos os lados">
                         </picture>
                     </figure>
                 </div>

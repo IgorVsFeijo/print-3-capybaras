@@ -21,18 +21,18 @@
 
     <!-- Fim Header -->
 
-    <main class="home-cidade">
-        <article class="container-lg">
+    <main class="home-cidade" role="main" aria-label="conteúdo principal do site" aria-labelledby="main-heading">
+        <article class="container-lg" role="article">
             <div class="poster">
                 <hgroup class="titulo-poster-fundo-branco">
-                        <h1 class="h1-cidade">A CIDADE</h1>
+                        <h1 class="h1-cidade" id="main-heading">A CIDADE</h1>
                         <p class="h3">de São Roque</p>
                 </hgroup>
             </div>
 
             <div class="container-lg">
-                <section id="hc-sessao-historia">
-                    <h2 class="titulo-sessao">HISTÓRIA</h2>
+                <section id="hc-sessao-historia" role="region" aria-labelledby="section-heading">
+                    <h2 class="titulo-sessao" id="section-heading">HISTÓRIA</h2>
                     <figure class="img-grande">
                         <picture class="img-fluid">
                             <source media="(max-width: 576px)" srcset="../imgs/cidade/home_historia_sm.webp">
@@ -49,14 +49,14 @@
                         a história de São Roque, somos convidados a uma viagem no tempo, revisitando os marcos, as
                         pessoas e os eventos que moldaram esta cidade única.
                     </p>
-                    <a href="historia.php" class="btn btn-primary btn-veja-mais">VEJA MAIS</a>
+                    <a href="historia.php" class="btn btn-primary btn-veja-mais" role="link" aria-label="link-para-ver- a-mais-informacoes-sobre-a-historia-da-cidade">VEJA MAIS</a>
                 </section>
-                <section id="hc-sessao-pessoas">
-                    <h2 class="titulo-sessao">PESSOAS NOTÁVEIS</h2>
-                    <section class="hc-cards-pessoas">
-                        <h3 class="d-none">Cartões Pessoas Notáveis</h3>
-                        <section class="hc-card-pessoa">
-                            <h2 class="titulo-verde-agua">Darcy Penteado</h2>
+                <section id="hc-sessao-pessoas" role="region" aria-labelledby="section-heading">
+                    <h2 class="titulo-sessao" id="section-heading">PESSOAS NOTÁVEIS</h2>
+                    <section class="hc-cards-pessoas" role="region" aria-labelledby="section-heading">
+                        <h3 class="d-none" id="section-heading">Cartões Pessoas Notáveis</h3>
+                        <section class="hc-card-pessoa" role="region" aria-labelledby="section-heading">
+                            <h2 class="titulo-verde-agua" id="section-heading">Darcy Penteado</h2>
                             <figure>
                                 <picture>
                                     <source media="(max-width: 576px)" srcset="../imgs/cidade/home_darcy_sm.webp">
@@ -67,8 +67,8 @@
                                 <figcaption class="titulo-retangulo-cinza">Artista Multifacetado</figcaption>
                             </figure>
                         </section>
-                        <section class="hc-card-pessoa">
-                            <h2 class="titulo-verde-agua">Emiko Takatatsu</h2>
+                        <section class="hc-card-pessoa" role="region" aria-labelledby="section-heading">
+                            <h2 class="titulo-verde-agua" id="section-heading">Emiko Takatatsu</h2>
                             <figure>
                                 <picture>
                                     <source media="(max-width: 576px)" srcset="../imgs/cidade/home_emiko_sm.webp">
@@ -79,8 +79,8 @@
                                 <figcaption class="titulo-retangulo-cinza">Mestra do Tênis de Mesa</figcaption>
                             </figure>
                         </section>
-                        <section class="hc-card-pessoa">
-                            <h2 class="titulo-verde-agua">Juca de Oliveira</h2>
+                        <section class="hc-card-pessoa" role="region" aria-labelledby="section-heading">
+                            <h2 class="titulo-verde-agua" id="section-heading">Juca de Oliveira</h2>
                             <figure>
                                 <picture>
                                     <source media="(max-width: 576px)" srcset="../imgs/cidade/home_juca_sm.webp">
@@ -96,10 +96,10 @@
                         revisitamos as trajetórias de figuras ilustres que, com seu talento e dedicação, deixaram um
                         legado inestimável para a cidade e para o Brasil. Conheça esses ícones e inspire-se em suas
                         histórias.</p>
-                    <a href="pessoasnotaveis.php" class="btn btn-primary btn-veja-mais">VEJA MAIS</a>
+                    <a href="pessoasnotaveis.php" class="btn btn-primary btn-veja-mais" role="link" aria-label="link-para-ver- a-mais-informacoes-sobre-pessoas-notaveis">VEJA MAIS</a>
                 </section>
-                <section id="hc-sessao-dados">
-                    <h2 class="titulo-sessao">DADOS GERAIS</h2>
+                <section id="hc-sessao-dados" role="region" aria-labelledby="section-heading">
+                    <h2 class="titulo-sessao" id="section-heading">DADOS GERAIS</h2>
                     <div class="row row-cols-sm-2 mt-5">
                         <div>
                             <figure>
@@ -108,7 +108,7 @@
                                         srcset="../imgs/cidade/home_dados_gerais_sm.webp">
                                     <source media="(max-width: 768px)"
                                         srcset="../imgs/cidade/home_dados_gerais_md.webp">
-                                    <img src="../imgs/cidade/home_dados_gerais.webp" alt="">
+                                    <img src="../imgs/cidade/home_dados_gerais.webp" alt="Duas pessoas seguram uma haste em que há um pano pendurado, nele está escrito 'Abertura oficial das festasde agosto 2023 SR Entrada dos carros de lenha'">
                                 </picture>
                             </figure>
                             </figure>
@@ -127,36 +127,36 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="dadosgerais.php" class="btn btn-primary btn-veja-mais">VEJA MAIS</a>
+                    <a href="dadosgerais.php" class="btn btn-primary btn-veja-mais" role="link" aria-label="link-para-ver- a-mais-informacoes-sobre-dados-gerais">VEJA MAIS</a>
                 </section>
-                <section id="hc-sessao-simbolos">
-                    <h2 class="titulo-sessao">BRASÃO E BANDEIRA</h2>
+                <section id="hc-sessao-simbolos" role="region" aria-labelledby="section-heading">
+                    <h2 class="titulo-sessao" id="section-heading">BRASÃO E BANDEIRA</h2>
                     <div class="row row-cols-md-2">
-                        <section class="d-flex flex-column">
-                            <h3 class="titulo-verde-agua order-1 sombra">BRASÃO</h3>
+                        <section class="d-flex flex-column" role="region" aria-labelledby="section-heading">
+                            <h3 class="titulo-verde-agua order-1 sombra" id="section-heading">BRASÃO</h3>
                             <picture class="order-0 sombra">
                                 <source media="(max-width: 576px)" srcset="../imgs/cidade/home_brasao_sm.webp">
                                 <source media="(max-width: 768px)" srcset="../imgs/cidade/home_brasao_md.webp">
-                                <img src="../imgs/cidade/home_brasao.webp" alt="">
+                                <img src="../imgs/cidade/home_brasao.webp" alt="Brasão de São Roque, há uma faixa vermelha na parte inferior escrito 'MEA PAULISTA GENS', em cada uma das laterais há uma pessoa">
                             </picture>
                             <p class="order-2">Baseado nos escudos portugueses, o brasão de São Roque sintetiza a história da cidade,
                                 desde seus fundadores até alguns de seus principais elementos.</p>
                         </section>
-                        <section class="d-flex flex-column">
-                            <h3 class="titulo-verde-agua order-1 sombra">BANDEIRA</h3>
+                        <section class="d-flex flex-column" role="region" aria-labelledby="section-heading">
+                            <h3 class="titulo-verde-agua order-1 sombra" id="section-heading">BANDEIRA</h3>
                             <picture class="order-0 sombra">
                                 <source media="(max-width: 576px)" srcset="../imgs/cidade/home_bandeira_sm.webp">
                                 <source media="(max-width: 768px)" srcset="../imgs/cidade/home_bandeira_md.webp">
-                                <img src="../imgs/cidade/home_bandeira.webp" alt="">
+                                <img src="../imgs/cidade/home_bandeira.webp" alt="Bandeira de São Roque, o brasão ao centro, duas faixas (uma vermelha, outra preta) que vão de uma diagonal a outra de ambos os lados">
                             </picture>
                             <p class="order-2">Com o mesmo brasão em seu centro, a bandeira de São Roque simboliza o união do município
                                 com o Estado de São Paulo</p>
                         </section>
                     </div>
-                    <a href="simbolos.php" class="btn btn-primary btn-veja-mais">VEJA MAIS</a>
+                    <a href="simbolos.php" class="btn btn-primary btn-veja-mais" role="link" aria-label="link-para-ver- a-mais-informacoes-sobre-brasao-e-bandeira">VEJA MAIS</a>
                 </section>
-                <section id="hc-sessao-hino">
-                    <h2 class="titulo-sessao">HINO DA CIDADE</h2>
+                <section id="hc-sessao-hino" role="region" aria-labelledby="section-heading">
+                    <h2 class="titulo-sessao" id="section-heading">HINO DA CIDADE</h2>
                     <div class="row ">
                         <figure class="col-md-8 d-flex flex-column">
                             <iframe src="https://www.youtube.com/embed/DrYRJNrCN3U?si=0TtCDzLd1wE_-WGR"
@@ -183,7 +183,7 @@
                                 Da terra onde nasci....</p>
                         </div>
                     </div>
-                    <a href="hino.php" class="btn btn-primary btn-veja-mais my-2">VEJA MAIS</a>
+                    <a href="hino.php" class="btn btn-primary btn-veja-mais my-2" role="link" aria-label="link-para-ver- a-mais-informacoes-sobre-o-hino">VEJA MAIS</a>
                 </section>
             </div>
         </article>
